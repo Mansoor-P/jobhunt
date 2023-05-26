@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Job Portal</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    /* Default styles */
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      margin-bottom: 40px;
+      margin-top: 50px;
+    }
+  
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .col-md-4 {
+      border: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      
+
+    }
+    textarea {
+  resize: both;
+}
+textarea#message {
+  height: 14em;
+}
+#message{
+  overflow: auto;
+  margin-bottom: 20px;
+}
+    /* Responsive styles */
+    @media (max-width: 767px) {
+
+      /* Styles for screens smaller than 768px */
+      .col-md-8,
+      .col-md-4 {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Main content -->
+  <div class="container">
+    <div class="row m-4">
+      <div class="col-md-12">
+        <h1 class="mb-4">Contact Us</h1>
+        <p>Get in touch with us for any inquiries or feedback.</p>
+        <section class="contact-info mt-4">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Email: info@example.com</li>
+            <li>Phone: +1 123-456-7890</li>
+            <li>Address: 123 Job Street, City, Country</li>
+          </ul>
+         
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form mt-4">
+          <h2>Send us a message</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </section>
+      </div>
+      <!-- <div class="col-md-4">
+        <img src="./undraw_contact_us_re_4qqt.svg" alt="" width="">
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3">
+    <div class="container text-center">
+      <p class="mb-0">&copy; 2023 Job Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- include Bootstrap JavaScript file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

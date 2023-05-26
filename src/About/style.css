@@ -1,0 +1,94 @@
+/* Background color for the about page */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Center the main content section */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Style for the heading */
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Style for the description */
+.description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 2rem;
+}
+
+/* Style for the team members section */
+.team-members {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+/* Style for the team member card */
+.team-member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for the team member card */
+.team-member-card:hover {
+    transform: translateY(-0.5rem);
+}
+
+/* Style for the team member image */
+.team-member-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Style for the team member name */
+.team-member-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Style for the team member position */
+.team-member-position {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #6c757d;
+}
+
+.col-md-4 {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+
+/* Style for the footer */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Style for the footer text */
+footer p {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
