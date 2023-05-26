@@ -1,0 +1,53 @@
+/* jo-notifications  */
+
+
+
+.job-card {
+    margin-bottom: 20px;
+  }
+
+  .job-card .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .job-card .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .job-card .card .card-body {
+    flex: 1;
+  }
+
+  .job-card .card .card-title {
+    margin-bottom: 5px;
+  }
+
+  .job-card .card .card-subtitle {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .job-card .card .card-text {
+    margin-bottom: 10px;
+  }
+
+  .job-card .card .apply-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .job-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+
+  /* error  */
+
