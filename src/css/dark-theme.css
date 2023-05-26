@@ -1,0 +1,17 @@
+/* Dark Theme Styles */
+
+body.dark-theme {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .navbar.dark-theme {
+    background-color: #222;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  /* Additional styles for dark theme */
+  

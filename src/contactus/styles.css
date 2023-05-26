@@ -1,0 +1,113 @@
+/* Contact Us Page Styles */
+#contact-us {
+    background-color: #f8f9fa;
+  }
+  
+  #contact-us h2 {
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  #contact-us form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact-us form label {
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  #contact-us form input[type="text"],
+  #contact-us form input[type="email"],
+  #contact-us form textarea {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #343a40;
+    font-size: 16px;
+  }
+  
+  #contact-us form input[type="text"]:focus,
+  #contact-us form input[type="email"]:focus,
+  #contact-us form textarea:focus {
+    background-color: #fff;
+    box-shadow: none;
+  }
+  
+  #contact-us form button[type="submit"] {
+    background-color: #343a40;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .container {
+    margin-top: 3rem;
+  }
+  
+  form {
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
