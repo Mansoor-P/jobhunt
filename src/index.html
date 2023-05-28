@@ -1,201 +1,234 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- Light Theme -->
-<link rel="stylesheet" href="./css/light-theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" type="text/MIME" href="./css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/css/style.css">
+    <link rel="stylesheet" href="./css/allstyles.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
-<!-- Dark Theme -->
-<link rel="stylesheet" href="./css/dark-theme.css">
-<script src="./js/data.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- script js  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-     <!-- Custom CSS -->
-     <link rel="stylesheet"  type="text/MIME" href="./css/css/bootstrap.min.css">
-     <link rel="stylesheet" href="./css/css/style.css">
-     <!-- Font Awesome Icons -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	 <title>Job Listings</title>
+    <!-- Custom JS -->
+    <script src="./js/index.js"></script>
+    <script src="./js/data.js"></script>
 
-
-	<style>
-		.container {
-			max-width: 1200px;
-			margin: auto;
-			padding: 20px;
-		}
-
-		h1 {
-			text-align: center;
-		}
-
-		.search-bar {
-			display: flex;
-			align-items: center;
-			margin-bottom: 20px;
-		}
-
-		.search-bar input[type="text"] {
-			flex-grow: 1;
-			padding: 10px;
-			font-size: 10px;
-          
-		}
-
-		.filter-box {
-			display: flex;
-			align-items: center;
-			margin-bottom: 20px;
-		}
-
-		.filter-box select {
-			margin-right: 10px;
-			padding: 10px;
-			font-size: 16px;
-		}
-
-		table {
-			width: 100%;
-			border-collapse: collapse;
-		}
-
-		th, td {
-			padding: 10px;
-			text-align: left;
-			border-bottom: 1px solid #ddd;
-		}
-
-		th {
-			background-color: #f2f2f2;
-		}
-        
-        @media (min-width: 992px) {
-            .navbar{
-            position: sticky;
-            top: 0%;
-        }
-        }
-	</style>
-
-
+    <title>Job Listings</title>
 
 </head>
-<body>
 
- <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">career Hunt</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="./job-notifications.html">Jobs notification</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./internships.html">Internships</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./resume-building/index.html">Resume Builder</a>
-               
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./About/index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item m-4">
-                <label class="form-check-label" for="themeSwitcher">
-                    <input class="form-check-input" type="checkbox" id="themeSwitcher" onchange="toggleTheme()"><i class="fas fa-sun"></i>
-                </label>
-            </li>
-        </ul>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <a class="navbar-brand" href="#">career Hunt</a> -->
+        <figure class="logo-box"><a href="./index.html"><img class="footer__logo" src="../careerHUnt.png" alt=""></a></figure>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./job-notifications.html">Jobs notification</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./internships.html">Internships</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume-building/index.html">Resume Builder</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./About/index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- trending jobs  -->
+    <div class="job-names-row">
+        <div>
+            <h6>Trending</h6>
+        </div>
+        <div class="job-names ">
+            <span class="job-name">nasa recently launched for b-tech students</span>
+            <span class="job-name">amazon software developer job</span>
+           <span class="job-name">Google is hiring for fresher b-tech students(girls)</span>
+           
+        </div>
+        <div class="prev-arrow"><i class="fas fa-chevron-left"></i></div>&nbsp;&nbsp;
+
+        <div class="next-arrow"><i class="fas fa-chevron-right"></i></div>&nbsp;&nbsp;
     </div>
 
-</nav>
-
-
-<h1>Career Hunt</h1>
-
-	<div class="container">
-		
-		<div>
-            <img src="./img/undraw_welcome_cats_thqn.svg" alt="" width="700px" height="450px" style="margin-right: 100px;">
-        </div>
-	  
-	</div>
-
-
-     <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Company</h5>
-                    <a class="btn btn-link text-white-50" href="./About/index.html">About Us</a>
-                    <a class="btn btn-link text-white-50" href="./contactus/contact.html">Contact Us</a>
-                    <!-- <a class="btn btn-link text-white-50" href="">Our Services</a> -->
-                    <!-- <a class="btn btn-link text-white-50" href="">Privacy Policy</a> -->
-                    <!-- <a class="btn btn-link text-white-50" href="">Terms & Condition</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Quick Links</h5>
-                    <a class="btn btn-link text-white-50" href="">Linked In</a>
-                    <!-- <a class="btn btn-link text-white-50" href="">Contact Us</a> -->
-                    <!-- <a class="btn btn-link text-white-50" href="">tree</a> -->
-                    <!-- <a class="btn btn-link text-white-50" href="">Privacy Policy</a> -->
-                    <!-- <a class="btn btn-link text-white-50" href="">Terms & Condition</a> -->
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Contact</h5>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>careerhunt@munaf.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a> -->
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+    <div class="container">
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-chart-line text-primary mb-4" style="color: #f9a826 !important;"></i>
+                            <h6 class="mb-3" style="color: #3D3C4E !important;">Job Notifications</h6>
+                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white mb-4">Newsletter</h5>
-                    <p></p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"
+                                style="color: #f9a826  !important;"></i>
+                            <h6 class="mb-3" style="color: #3D3C4E !important;">Internships</h6>
+                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4" style="color: #f9a826 !important;"></i>
+                            <h6 class="mb-3" style="color: #3D3C4E !important;">Resume Builder</h6>
+                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"
+                                style="color: #f9a826 !important;"></i>
+                            <h6 class="mb-3" style="color: #3D3C4E !important;">Careers</h6>
+                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Career Hunt</a>, All Right Reserved 2023. 
-                        
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+        <!-- Category End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 about-bg rounded overflow-hidden">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid w-100" src="./img/undraw_personal_info_re_ur1n.svg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid w-100" src="./img/undraw_personal_info_re_ur1n.svg">
+
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid w-100" src="./img/undraw_personal_info_re_ur1n.svg">
+
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid w-100" src="./img/undraw_personal_info_re_ur1n.svg">
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <!-- <a href="">Cookies</a> -->
-                            <!-- <a href="">Help</a> -->
-                            <!-- <a href="">FQAs</a> -->
-                            <a href="./disclaimerpage.htm">Desclaimer</a>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4"> Get The Best Job And Find A Talent</h1>
+                        <p class="mb-4">Our job portal is regularly updated with the latest job openings, ensuring that
+                            you have access to a wide range of employment opportunities.
+                            Each job listing includes detailed information about the role, company profile, required
+                            qualifications, and application instructions, enabling you to make informed decisions.</p>
+                        <p><i class="fa fa-check text-primary me-3" style="color: #f9a826 !important;">&nbsp;&nbsp;</i>Start your
+                            journey today and unlock a world of possibilities on our job portal. </p>
+                        <p><i class="fa fa-check text-primary me-3" style="color: #f9a826 !important;">&nbsp;&nbsp;</i>Enhance your
+                            chances of finding the perfect job.</p>
+                        <p><i class="fa fa-check text-primary me-3" style="color: #f9a826 !important;">&nbsp;&nbsp;</i>let's pave
+                            the way for your professional success.</p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="./About/index.html"
+                            style="background-color: #f9a826 !important; color:#3D3C4E ;">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+    </div>
+
+  <!-- partial:index.partial.html -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                    <div class="logo-widget footer-widget">
+                        <!-- <h1 class="footer__logo" style="color: #f9a826;">MANSOOR</h1> -->
+                        <figure class="logo-box"><a href="#"><img class="footer__logo" src="../careerHUnt.png" alt=""></a></figure>
+                        <div class="text">
+                            <p>Whether you are just starting your career or looking for a career change, we are here to support you in achieving your professional goals.</p>
+                        </div>
+                        <ul class="footer-social">
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            <!-- <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li> -->
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+                    <div class="service-widget footer-widget">
+                        <div class="footer-title">Quick Links</div>
+                        <ul class="list">
+                            <li><a href="./About/index.html">About Us</a></li>
+                            <li><a href="./contactus/contact.html">Contact Us</a></li>
+                          
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                    <div class="contact-widget footer-widget">
+                        <div class="footer-title">Contacts</div>
+                        <div class="text">
+                            <p>If you have any queries please mail below</p>
+                           
+                            <p>info@example.com</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</footer>
+<!-- main-footer end -->
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 column">
+                <div class="copyright"><a href="#">Mansoor</a> &copy; 2023 All Right Reserved</div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 column">
+                <ul class="footer-nav">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="">Desclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- partial -->
     <!-- Footer End -->
-</body>
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- Custom JS -->
-<script src="./js/index.js"></script>
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="color: #f9a826 !important;"><i
+            class="bi bi bi-arrow-up"></i></a> -->
 
+</body>
 </html>
