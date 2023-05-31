@@ -1,21 +1,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://www.mycareerhunt.com">
-    <img src="careerHUnt.png" alt="My Career Hunt Logo" width="550" height="200">
+  <a href="">
+    <img src="MJ.png" alt="MJ Career  Logo" width="550" height="200">
   </a>
 
-  <h3 align="center">My Career Hunt Job Portal</h3>
+  <h3 align="center">MJ Career Job Portal</h3>
 
   <p align="center">
-    Find your dream job with My Career Hunt!
+    Find your dream job with MJ Career!
     <br />
-    <a href="https://www.mycareerhunt.com"><strong>Explore the website »</strong></a>
+    <a href=""><strong>Explore the website »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/your-username/my-career-hunt/issues">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/your-username/my-career-hunt/issues">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </p>
 
@@ -34,9 +34,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![My Career Hunt Screenshot](mansoor.png)](https://www.mycareerhunt.com)
+[![MJ Career Hunt Screenshot](MJ.png)](https://www.mycareerhunt.com)
 
-My Career Hunt is a modern job portal that helps job seekers find the perfect job. It provides a user-friendly interface to search for job openings, internships, and build professional resumes. With My Career Hunt, your dream job is just a few clicks away.
+MJ Career  is a modern job portal that helps job seekers find the perfect job. It provides a user-friendly interface to search for job openings, internships, and build professional resumes. With MJ Career , your dream job is just a few clicks away.
 
 ### Built With
 
@@ -48,7 +48,7 @@ My Career Hunt is a modern job portal that helps job seekers find the perfect jo
 
 ## Screenshots
 
-Here are some screenshots of the My Career Hunt Job Portal:
+Here are some screenshots of the MJ Career  Job Portal:
 
 1. Homepage
    ![Homepage](homepage.png)
@@ -81,7 +81,7 @@ To get a local copy up and running, follow these simple steps.
 
 ## Contributing
 
-We welcome contributions from the open-source community to improve My Career Hunt. To contribute, please follow these guidelines:
+We welcome contributions from the open-source community to improve MJ Career . To contribute, please follow these guidelines:
 
 1. Fork the repository and create your branch: `git checkout -b feature/my-feature`
 2. Make your changes and test them locally.
@@ -101,10 +101,28 @@ This project is licensed under the [MIT License](LICENSE). Feel free to modify a
 
 If you have any questions, suggestions, or feedback, please reach out to us:
 
-- Email: [info@mycareerhunt.com](mailto:info@mycareerhunt.com)
-- Website: [www.mycareerhunt.com](https://www.mycareerhunt.com)
-- Twitter: [@mycareerhunt](https://twitter.com/mycareerhunt)
+- Email: [mansoor info @gmail.com](mailto:mansoormunaf96522@gmail.com)
+<!-- - Website: [www.MJ-Career.com](https://www.mycareerhunt.com)
+- Twitter: [@mycareerhunt](https://twitter.com/mycareerhunt) -->
 
-We value your input and appreciate your support in making My Career Hunt a better job portal for everyone.
+We value your input and appreciate your support in making MJ Career a better job portal for everyone.
 
-Thank you for choosing My Career Hunt! Happy job hunting!
+Thank you for choosing MJ Career ! Happy job hunting!
+
+
+
+
+
+We appreciate your support in making MJ Career  a better job portal for everyone.
+
+Thank you for choosing MJ Career ! Happy job searching!
+
+
+
+
+## licence 
+#### Bootstrap
+- The MIT License (MIT)
+
+- Copyright (c) 2011-2021 Twitter, Inc.
+- Copyright (c) 2011-2021 The Bootstrap Authors
