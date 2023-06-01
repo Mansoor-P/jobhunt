@@ -5,16 +5,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const jobs = [
       {
-        title: "nasa recently launched for b-tech students",
-        link: "https://example.com/nasa-job"
+        title:"ISRO IS HIRING: SCIENTIST/ ENGINEER",
+        link:"https://apps.ursc.gov.in/CentralBE-2023/advt.jsp"
       },
       {
-        title: "amazon software developer job",
-        link: "https://example.com/amazon-job"
+        title: "Google Hiring Girl Hackathon 2023 ",
+        link: "https://rsvp.withgoogle.com/events/girl-hackathon-2023/home"
       },
       {
-        title: "Google is hiring for fresher b-tech students(girls)",
-        link: "https://example.com/google-job"
+        title: "LENNOX INTERNATIONAL IS HIRING: GRADUATE TRAINEE ENGINEER",
+        link: "https://indiacareers-lennox.icims.com/jobs/38329/job?mobile=false&width=561&height=500&bga=true&needsRedirect=false&jan1offset=330&jun1offset=330"
+      },
+      {
+        title: "CORNERSTONE IS HIRING: JUNIOR ENGINEER, QUALITY",
+        link: "https://cornerstone.csod.com/ux/ats/careersite/2/home/requisition/8322?c=cornerstone&source=LinkedIn"
       },
       // Add more job objects here as needed
     ];
