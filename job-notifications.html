@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- fav-icon  -->
+
+    <link rel="icon" sizes="180x180" href="./img/favicon_io/favicon.ico">
+    <link rel="manifest" href="./img/favicon_io/site.webmanifest">
+    
+    
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/allstyles.css">
+  <script src="./js/data.js"></script>
+  <script src="./js/trending.js"></script>
+   <title>Job notifications</title>
+
+  <style>
+    .job-card {
+      position: relative;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .job-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+ 
+
+
+ <style>
+ 
+  .trending {
+    width: 75%;
+      margin-top: 40px;
+    }
+
+    .trending h6 {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .job-names-row {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 40px; /* Adjust the width of your logo */
+      height: 40px; /* Adjust the height of your logo */
+      margin-right: 10px;
+    }
+
+    .job-names-container {
+      flex-grow: 1;
+      overflow: hidden;
+    }
+
+    .job-names {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
+    .job-names:hover a {
+      color: #f9a826;
+    }
+
+
+    .job-name {
+      margin-right: 10px;
+      padding: 5px 10px;
+      background-color: #f2f2f2;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .prev-arrow,
+    .next-arrow {
+      cursor: pointer;
+      color: #333;
+    }
+    .prev-arrow:hover {
+     color: #F9A826;
+    }
+    .next-arrow:hover {
+     color: #F9A826;
+    }
+    .logo{
+      color: #F9A826;
+      font-family: 'Monoton', cursive;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-size: xx-large;
+    }
+</style>
+
+
+
+
+
+<style>
+  .row.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-group {
+    margin-right: 10px;
+  }
+
+  .btn {
+    min-width: 150px;
+    padding: 8px 20px;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 560px) {
+    .row.intro {
+      flex-direction: column;
+    }
+
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .form-group {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+
+</style>
+
+<style>
+  /* CSS styles for job notifications */
+  .job-notification {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  .job-notification h3 {
+    margin-top: 0;
+  }
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <a class="navbar-brand" href="#">career Hunt</a> -->
+  <h1 class="footer__logo" style="color: #f9a826;"><a style="text-decoration: none; color: #f9a826;" href="./index.html">MJ &nbsp;&nbsp;&nbsp;<span style="color: black;">Career</span></a></h1>
+
+  <!-- <figure class="logo-box"><a href="./index.html"><img class="footer__logo" src="../careerHUnt.png" alt=""></a></figure> -->
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="./job-notifications.html">Jobs notification</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./internships.html">Internships</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./resume-building/index.html">Resume Builder</a>
+
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./About/index.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+          </li>
+      </ul>
+  </div>
+
+</nav>
+
+  <!-- container  -->
+  <div class="container">
+
+    
+
+
+    <!-- trending jobs  -->
+    <div class="trending job-names-row" style="margin-top: 40px; ">
+      <div>
+       <a href="./index.html"> <h1 class="logo"  style="padding: 8px;">MJ</h1></a>
+        <!-- <img class="logo" src="../MJ.png" alt="Logo" class="logo"> -->
+      </div>
+      <div class="job-names-container">
+        <!-- <h6>Trending</h6> -->
+        <div class="job-names">
+          <!-- Job names will be dynamically generated by JavaScript -->
+        </div>
+      </div>
+      <div class="prev-arrow"><i class="fas fa-chevron-left"></i></div>&nbsp;&nbsp;
+      <div class="next-arrow"><i class="fas fa-chevron-right"></i></div>&nbsp;&nbsp;
+    </div>
+
+
+
+    <div class="row intro">
+      <h1>Browse and Apply for <span style="color:#f9a826"> Latest Job</span> <span>Openings</span></h1>
+      
+      <div class="col-md-12">
+        <div class="form-inline">
+          <div class="form-group mr-2">
+            <input type="text" class="form-control" placeholder="Search by job title" id="searchJobInput">
+          </div>
+          <div class="form-group mr-2">
+            <input type="text" class="form-control" placeholder="Search by joblocation" id="searchLocationInput">
+          </div>
+          <!-- <div class="form-group mr-2">
+            <input type="text" class="form-control" placeholder="Search by company" id="searchCompanyInput">
+            <div class="form-group mr-2">
+              <select class="form-control" id="filterCompany">
+                <option value="">Filter by company </option>
+                <option value="Wipro">wipro</option>
+                <option value="HCL tech">hcl tech</option>
+
+              </select>
+            </div>
+          </div> -->
+          <!-- <div class="form-group mr-2">
+            <select class="form-control" id="filterSalary">
+              <option value="">Filter by salary</option>
+              <option value="10000">$10,000+</option>
+              <option value="50000">$50,000+</option>
+              <option value="100000">$100,000+</option>
+              <option value="200000">$200,000+</option>
+            </select>
+          </div> -->
+
+          <button class="btn btn-outline-warning" onclick="filterJobs()">Search</button>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div id="jobListings">
+          <!-- Job listings will be dynamically inserted here -->
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div id="jobDetails">
+          <!-- Job details will be dynamically inserted here -->
+        </div>
+
+        <div id="jobModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="jobModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="jobModalLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="jobModalBody">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pages">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination" id="pagination">
+
+          </ul>
+        </nav>
+        <div id="jobCount" class="job-count"></div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+      <!-- partial:index.partial.html -->
+      <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                        <div class="logo-widget footer-widget">
+                            <h1 class="footer__logo" style="color: #f9a826;"><a style="text-decoration: none; color: #f9a826;" href="./index.html">MJ &nbsp;&nbsp;&nbsp;<span style="color: white;">Career</span></a></h1>
+      
+                            <!-- <figure class="logo-box"><a href="#"><img class="footer__logo" src="../careerHUnt.png" alt=""></a></figure> -->
+                            <div class="text">
+                                <p>Whether you are just starting your career or looking for a career change, we are here to support you in achieving your professional goals.</p>
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://github.com/Mansoor-P"><i class="fab fa-github"></i></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li> -->
+                                <li><a href="https://www.linkedin.com/in/MANSOOR0731"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-title">Quick Links</div>
+                            <ul class="list">
+                                <li><a href="./About/index.html">About Us</a></li>
+                                <li><a href="./contactus/contact.html">Contact Us</a></li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                        <div class="contact-widget footer-widget">
+                            <div class="footer-title">Contacts</div>
+                            <div class="text">
+                                <p>If you have any queries please mail below</p>
+                               
+                                <p><a href="./contactus/contact.html" style="color: rgb(175, 175, 175);"> mansoor-info@example.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+    
+
+
+
+<!-- main-footer end -->
+<div class="footer-bottom justify-content-center text-center">
+  <div class="container">
+      <div class="">
+          <div class="">
+              <div class="copyright"><a href="./index.html">Mj Career</a> &copy; 2023 All Right Reserved</div>
+          </div>
+          <div class="">
+              <ul class="footer-nav justify-content-center">
+                  <li><a href="./About/index.html">About Us</a></li>
+                  <li><a href="./contactus/contact.html">Contact Us</a></li>
+                  <li><a href="./disclaimerpage.html">Desclaimer</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Footer End -->
+  <script>
+
+    var jobsPerPage = 4;
+    var currentPageNumber = 1;
+
+    // Function to render jobs based on current page number
+    function renderJobs() {
+      var jobListings = document.getElementById('jobListings');
+      jobListings.innerHTML = '';
+
+      var startIndex = (currentPageNumber - 1) * jobsPerPage;
+      var endIndex = startIndex + jobsPerPage;
+      var displayedJobs = jobs.slice(startIndex, endIndex);
+
+      for (var i = 0; i < displayedJobs.length; i++) {
+        var job = displayedJobs[i];
+
+        var card = document.createElement('div');
+        card.classList.add('card', 'job-card');
+
+        var cardContent = `
+          <div class="card">
+            <img src="${job.logo}" class="img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">${job.title}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">${job.company}</h6>
+              <p class="card-text">
+                Location: ${job.location}<br>
+                Experience: ${job.experience}
+                Salary : ${job.salary}
+              </p>
+              <a href="#" class="apply-link" onclick="showJobDetails(${i})">Apply</a>
+            </div>
+          </div>
+        `;
+        card.innerHTML = cardContent;
+        jobListings.appendChild(card);
+      }
+      updateJobCount();
+      updatePagination();
+    }
+
+    // Function to update job count
+    function updateJobCount() {
+      var jobCountElement = document.getElementById('jobCount');
+      var totalJobs = jobs.length;
+
+      var startIndex = (currentPageNumber - 1) * jobsPerPage;
+      var endIndex = Math.min(startIndex + jobsPerPage, totalJobs);
+      var displayedJobs = endIndex - startIndex;
+
+      var countText = `Showing  ${startIndex + 1}-${endIndex} of ${totalJobs} jobs`;
+
+      jobCountElement.innerText = countText;
+    }
+
+    function updatePagination() {
+      var pagination = document.getElementById('pagination');
+      pagination.innerHTML = '';
+
+      var totalPages = Math.ceil(jobs.length / jobsPerPage);
+      var currentPage = Math.min(currentPageNumber, totalPages);
+
+      var prevLi = document.createElement('li');
+      prevLi.classList.add('page-item');
+      var prevLink = document.createElement('a');
+      prevLink.classList.add('page-link');
+      prevLink.href = '#';
+      prevLink.innerHTML = '<span aria-hidden="true">&laquo;</span>';
+      prevLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        if (currentPageNumber > 1) {
+          currentPageNumber--;
+          renderJobs();
+        }
+      });
+      prevLi.appendChild(prevLink);
+      pagination.appendChild(prevLi);
+
+      var startPage = Math.max(1, currentPage - 1);
+      var endPage = Math.min(startPage + 3, totalPages);
+
+      if (startPage > 1) {
+        var li = document.createElement('li');
+        li.classList.add('page-item');
+        var link = document.createElement('a');
+        link.classList.add('page-link');
+        link.href = '#';
+        link.innerText = '1';
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          currentPageNumber = 1;
+          renderJobs();
+        });
+        li.appendChild(link);
+        pagination.appendChild(li);
+
+        var elipsisLi = document.createElement('li');
+        elipsisLi.classList.add('page-item');
+        elipsisLi.innerHTML = '<span class="page-link">...</span>';
+        pagination.appendChild(elipsisLi);
+      }
+
+      for (var i = startPage; i <= endPage; i++) {
+        var li = document.createElement('li');
+        li.classList.add('page-item');
+        if (i === currentPage) {
+          li.classList.add('active');
+        }
+        var link = document.createElement('a');
+        link.classList.add('page-link');
+        link.href = '#';
+        link.innerText = i;
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          currentPageNumber = parseInt(event.target.innerText);
+          renderJobs();
+        });
+        li.appendChild(link);
+        pagination.appendChild(li);
+      }
+
+      if (endPage < totalPages) {
+        var elipsisLi = document.createElement('li');
+        elipsisLi.classList.add('page-item');
+        elipsisLi.innerHTML = '<span class="page-link">...</span>';
+        pagination.appendChild(elipsisLi);
+
+        var li = document.createElement('li');
+        li.classList.add('page-item');
+        var link = document.createElement('a');
+        link.classList.add('page-link');
+        link.href = '#';
+        link.innerText = totalPages;
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          currentPageNumber = totalPages;
+          renderJobs();
+        });
+        li.appendChild(link);
+        pagination.appendChild(li);
+      }
+
+      var nextLi = document.createElement('li');
+      nextLi.classList.add('page-item');
+      var nextLink = document.createElement('a');
+      nextLink.classList.add('page-link');
+      nextLink.href = '#';
+      nextLink.innerHTML = '<span aria-hidden="true">&raquo;</span>';
+      nextLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        if (currentPageNumber < totalPages) {
+          currentPageNumber++;
+          renderJobs();
+        }
+      });
+      nextLi.appendChild(nextLink);
+      pagination.appendChild(nextLi);
+    }
+
+    function showJobDetails(index) {
+      var job = jobs[index];
+
+      var jobDetails = document.getElementById('jobDetails');
+      var jobModal = document.getElementById('jobModal');
+      var jobModalLabel = document.getElementById('jobModalLabel');
+      var jobModalBody = document.getElementById('jobModalBody');
+
+      jobModalLabel.textContent = job.title;
+      jobModalBody.innerHTML = `
+        <img src="${job.logo}" class="img-fluid">
+        <h6 class="card-subtitle mb-2 text-muted">${job.company}</h6>
+        <p class="card-text">
+          Location: ${job.location}<br>
+          Experience: ${job.experience}<br>
+
+          Salary: ${job.salary}
+        </p>
+        <h5>Qualifications:</h5>
+        <p>${job.qualifications}</p>
+        <h5>Description:</h5>
+        <p>${job.description}</p>
+        <h5>Skills:</h5>
+        <p>${job.skills}</p>
+        <h5>Responsibilities:</h5>
+        <p>${job.responsibilities}</p>
+        <a href="${job.applyLink}" class="btn btn-primary">Apply Now</a>
+      `;
+
+      if (window.innerWidth <= 766) {
+        // Show job details in modal form
+        jobDetails.style.display = 'none';
+        jobModal.style.display = 'block';
+        $('#jobModal').modal('show');
+      } else {
+        // Show job details at the right side of the page
+        jobDetails.innerHTML = `
+          <div class="card job-details">
+            <div class="card-body">
+              <img src="${job.logo}" class="img-fluid">
+              <h5 class="card-title">${job.title}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">${job.company}</h6>
+              <p class="card-text">
+                Location: ${job.location}<br>
+                Salary: ${job.salary}
+              </p>
+              <h5>Qualifications:</h5>
+              <p>${job.qualifications}</p>
+              <h5>Description:</h5>
+              <p>${job.description}</p>
+              <h5>Skills:</h5>
+              <p>${job.skills}</p>
+              <h5>Responsibilities:</h5>
+              <p>${job.responsibilities}</p>
+              <a href="${job.applyLink}" class="btn btn-primary">Apply Now</a>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Function to filter jobs
+    function filterJobs() {
+      var searchJobInput = document.getElementById('searchJobInput').value.toLowerCase();
+      var searchLocationInput = document.getElementById('searchLocationInput').value.toLowerCase();
+      // var searchCompanyInput = document.getElementById('searchCompanyInput').value.toLowerCase();
+
+      // var filterCompany = document.getElementById('filterCompany').value;
+      // var filterSalary = document.getElementById('filterSalary').value;
+
+      var filteredJobs = jobs.filter(function (job) {
+        return (
+          (job.title.toLowerCase().includes(searchJobInput) || job.company.toLowerCase().includes(searchJobInput) || job.location.toLowerCase().includes(searchJobInput) || job.salary.toLowerCase().includes(searchJobInput)) &&
+          (job.location.toLowerCase().includes(searchLocationInput))
+          //  &&
+
+          // (job.company.toLowerCase().includes(searchCompanyInput))
+
+          // (filterCompany === '' || job.company === filterCompany)
+          // &&
+        );
+      });
+
+      jobs = filteredJobs;
+      renderJobs();
+    }
+
+    // Initial rendering of jobs
+    renderJobs();
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

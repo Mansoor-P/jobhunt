@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home Page</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- fav-icon  -->
+
+   <link rel="icon" sizes="180x180" href="./img/favicon_io/favicon.ico">
+   <link rel="manifest" href="./img/favicon_io/site.webmanifest">
+   
+   
+
+ 
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    video {
+      width: 80%;
+      max-height: 80vh;
+    }
+
+    .btn {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar bg-white">
+    <div class="container">
+      <div class="navbar-content">
+        <div class="brand-and-toggler">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/images/curriculum-vitae.png" alt="" class="navbar-brand-icon">
+            <span class="navbar-brand-text">build <span>resume.</span>
+          </a>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="../index.html">Home</a>
+              <a href="../job-notifications.html">Job Notifications</a>
+              <a href="../contactus/contact.html">Contact</a>
+            </div>
+          </div>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header bg-bright" id="header">
+    <div class="container">
+      <div class="header-content text-center">
+        <h6 class="text-uppercase text-blue-dark fs-14 fw-6 ls-1">online resume builder</h6>
+        <h1 class="lg-title">Only 2% of resumes make it past the first round. Be in the top 2%</h1>
+        <p class="text-dark fs-18">Use professional field-tested resume templates that follow the exact 'resume
+          rules' employers look for. Easy to use and done within minutes - try now for free!</p>
+        <a href="resume.html" class="btn btn-primary text-uppercase">create my resume <span
+            class="uil uil-clipboard-notes"></span></a>
+        <img src="assets/images/undraw_online_resume_re_ru7s.svg" width="300px" height="300px">
+      </div>
+    </div>
+  </header>
+
+  <div class="section-one">
+    <div class="container">
+      <div class="section-one-content">
+        <div class="section-one-l">
+          <img src="assets/images/undraw_education_f8ru.svg">
+        </div>
+        <div class="section-one-r text-center">
+          <h2 class="lg-title">Use the best resume maker as your guide!</h2>
+          <p class="text">Getting that dream job can seem like an impossible task. We're here to change that.
+            Give yourself a real advantage with the best online resume maker: created by experts, improved
+            by data, trusted by millions of professionals.</p>
+          <div class="btn-group">
+            <a href="resume.html" class="btn btn-primary text-uppercase">create my resume <span
+                class="uil uil-clipboard-alt"></span></a>
+            <button id="playBtn" class="btn btn-secondary text-uppercase">Watch Video <span
+                class="uil uil-video"></span></button>
+            <div id="videoModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <video id="videoPlayer" controls>
+                  <source id="videoSource" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-two bg-bright">
+    <div class="container">
+      <div class="section-two-content">
+        <div class="section-items">
+          <div class="section-item">
+            <div class="section-item-icon">
+              <img src="assets/images/undraw_interview_re_e5jn.svg" alt="">
+            </div>
+            <h5 class="section-item-title">Make a resume that wins interviews!</h5>
+            <p class="text">Use our resume maker with its advanced creation tools to tell a professional story
+              that engages recruiters, hiring managers, and even CEOs.</p>
+          </div>
+          <div class="section-item">
+            <div class="section-item-icon">
+              <img src="assets/images/undraw_note_list_re_r4u9.svg" alt="">
+            </div>
+            <h5 class="section-item-title">Resume writing made easy!</h5>
+            <p class="text">Resume writing has never been this effortless. Pre-generated text, visual
+              designs, and more - all already integrated into the resume maker. Just fill in your details.
+            </p>
+          </div>
+          <div class="section-item">
+            <div class="section-item-icon">
+              <img src="assets/images/undraw_informed_decision_p2lh.svg" alt="">
+            </div>
+            <h5 class="section-item-title">A recruiter-tested CV maker tool</h5>
+            <p class="text">Our resume builder and its pre-generated content are tested by recruiters and IT
+              experts. We help your CV become truly competitive in the hiring process.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer bg-dark">
+    <div class="container">
+      <div class="footer-content text-center">
+        <p class="fs-15">&copy;2023. All Rights Reserved - by &nbsp; <span><a href="../index.html" style="color: #f9a826;">MJ </a>Career</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/script.js"></script>
+  
+  <script>
+    const playBtn = document.getElementById('playBtn');
+    const videoModal = document.getElementById('videoModal');
+    const videoPlayer = document.getElementById('videoPlayer');
+    const videoSource = document.getElementById('videoSource');
+    const closeBtn = document.getElementsByClassName('close')[0];
+
+    playBtn.addEventListener('click', function () {
+      videoSource.src = "./assets/intro video.mp4"; // Set the video source
+      videoPlayer.load();
+      videoModal.style.display = 'block';
+      videoPlayer.play();
+    });
+
+    closeBtn.addEventListener('click', function () {
+      videoModal.style.display = 'none';
+      videoPlayer.pause();
+      videoPlayer.currentTime = 0;
+    });
+  </script>
+
+</body>
+
+</html>
