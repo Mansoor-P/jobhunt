@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./css/allstyles.css">
   <script src="./js/data.js"></script>
   <script src="./js/trending.js"></script>
+  <script src="/mj-career/templates/templates.js"></script>
    <title>Job notifications</title>
 
   <style>
@@ -165,46 +166,13 @@
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- <a class="navbar-brand" href="#">career Hunt</a> -->
-  <h1 class="footer__logo" style="color: #f9a826;"><a style="text-decoration: none; color: #f9a826;" href="./index.html">MJ &nbsp;&nbsp;&nbsp;<span style="color: black;">Career</span></a></h1>
-
-  <!-- <figure class="logo-box"><a href="./index.html"><img class="footer__logo" src="../careerHUnt.png" alt=""></a></figure> -->
-  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-              <a class="nav-link" href="./job-notifications.html">Jobs notification</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="./internships.html">Internships</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="./resume-building/index.html">Resume Builder</a>
-
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="./About/index.html">About</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-          </li>
-      </ul>
-  </div>
-
-</nav>
+  <!-- Navbar -->
+  <div id="navbarContainer"></div>
 
   <!-- container  -->
   <div class="container">
 
     
-
-
     <!-- trending jobs  -->
     <div class="trending job-names-row" style="margin-top: 40px; ">
       <div>
@@ -234,26 +202,7 @@
           <div class="form-group mr-2">
             <input type="text" class="form-control" placeholder="Search by joblocation" id="searchLocationInput">
           </div>
-          <!-- <div class="form-group mr-2">
-            <input type="text" class="form-control" placeholder="Search by company" id="searchCompanyInput">
-            <div class="form-group mr-2">
-              <select class="form-control" id="filterCompany">
-                <option value="">Filter by company </option>
-                <option value="Wipro">wipro</option>
-                <option value="HCL tech">hcl tech</option>
-
-              </select>
-            </div>
-          </div> -->
-          <!-- <div class="form-group mr-2">
-            <select class="form-control" id="filterSalary">
-              <option value="">Filter by salary</option>
-              <option value="10000">$10,000+</option>
-              <option value="50000">$50,000+</option>
-              <option value="100000">$100,000+</option>
-              <option value="200000">$200,000+</option>
-            </select>
-          </div> -->
+     
 
           <button class="btn btn-outline-warning" onclick="filterJobs()">Search</button>
         </div>
@@ -303,73 +252,8 @@
 
 
 
-      <!-- partial:index.partial.html -->
-      <footer class="main-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
-                        <div class="logo-widget footer-widget">
-                            <h1 class="footer__logo" style="color: #f9a826;"><a style="text-decoration: none; color: #f9a826;" href="./index.html">MJ &nbsp;&nbsp;&nbsp;<span style="color: white;">Career</span></a></h1>
-      
-                            <!-- <figure class="logo-box"><a href="#"><img class="footer__logo" src="../careerHUnt.png" alt=""></a></figure> -->
-                            <div class="text">
-                                <p>Whether you are just starting your career or looking for a career change, we are here to support you in achieving your professional goals.</p>
-                            </div>
-                            <ul class="footer-social">
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://github.com/Mansoor-P"><i class="fab fa-github"></i></a></li>
-                                <!-- <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li> -->
-                                <li><a href="https://www.linkedin.com/in/MANSOOR0731"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
-                        <div class="service-widget footer-widget">
-                            <div class="footer-title">Quick Links</div>
-                            <ul class="list">
-                                <li><a href="./About/index.html">About Us</a></li>
-                                <li><a href="./contactus/contact.html">Contact Us</a></li>
-                              
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
-                        <div class="contact-widget footer-widget">
-                            <div class="footer-title">Contacts</div>
-                            <div class="text">
-                                <p>If you have any queries please mail below</p>
-                               
-                                <p><a href="./contactus/contact.html" style="color: rgb(175, 175, 175);"> mansoor-info@example.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </footer>
-    
-
-
-
-<!-- main-footer end -->
-<div class="footer-bottom justify-content-center text-center">
-  <div class="container">
-      <div class="">
-          <div class="">
-              <div class="copyright"><a href="./index.html">Mj Career</a> &copy; 2023 All Right Reserved</div>
-          </div>
-          <div class="">
-              <ul class="footer-nav justify-content-center">
-                  <li><a href="./About/index.html">About Us</a></li>
-                  <li><a href="./contactus/contact.html">Contact Us</a></li>
-                  <li><a href="./disclaimerpage.html">Desclaimer</a></li>
-              </ul>
-          </div>
-      </div>
-  </div>
-</div>
-<!-- Footer End -->
+   <!-- Load the footer from the templates folder using JavaScript -->
+   <div id="footerContainer"></div>
   <script>
 
     var jobsPerPage = 4;
@@ -604,12 +488,6 @@
         return (
           (job.title.toLowerCase().includes(searchJobInput) || job.company.toLowerCase().includes(searchJobInput) || job.location.toLowerCase().includes(searchJobInput) || job.salary.toLowerCase().includes(searchJobInput)) &&
           (job.location.toLowerCase().includes(searchLocationInput))
-          //  &&
-
-          // (job.company.toLowerCase().includes(searchCompanyInput))
-
-          // (filterCompany === '' || job.company === filterCompany)
-          // &&
         );
       });
 
