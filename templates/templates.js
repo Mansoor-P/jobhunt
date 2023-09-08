@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Load the category using JavaScript
     const categoryContainer = document.getElementById('categoryContainer');
-    fetch('templates/category/category.html')
+    fetch('/mj-career/templates/category/category.html')
         .then(response => response.text())
         .then(data => {
             categoryContainer.innerHTML = data;
