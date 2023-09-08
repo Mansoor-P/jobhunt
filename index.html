@@ -8,7 +8,6 @@
     <link rel="icon" sizes="180x180" href="./img/favicon_io/favicon.ico">
     <link rel="manifest" href="./img/favicon_io/site.webmanifest">
 
-
     <!-- bootstrap css  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -27,13 +26,12 @@
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
     <!-- Custom JS -->
     <script src="./js/index.js"></script>
     <script src="./js/data.js"></script>
-
+    <script src="/mj-career/js/common.js"></script>
+    <!-- Templates -->
     <script src="/mj-career/templates/templates.js"></script>
-
 
     <title>Mj Career</title>
 
@@ -47,70 +45,70 @@
     <div class="container-fluid">
 
         <div class="intro">
-            <h1>Get The <span style="color:#f9a826"> Right Job</span> <span>You Deserve</span></h1>
 
-
-            <form class="form-inline">
-                <div class="form-group col-12 col-md-5">
-                    <input type="text" id="email" class="form-control w-100" placeholder="search by keyword"
-                        name="email">
-                </div>
-                <div class="form-group col-12 col-md-5">
-                    <input type="password" id="pwd" class="form-control w-100 " placeholder="search by location"
-                        name="pswd">
-                </div>
-                <div class="form-group col-12 col-md-2">
-                    <button type="submit" class="btn btn-warning btn-block"><a href="./job-notifications.html"
-                            style="color: black;"> Search</a> </button>
-                </div>
-            </form>
-
-        </div>
-
-        <!-- Category Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.1s">
-                        <a class="cat-item rounded p-4" href="./job-notifications.html">
-                            <i class="fa fa-3x fa-chart-line text-primary mb-4" style="color: #f9a826 !important;"></i>
-                            <h6 class="mb-3" style="color: #3D3C4E !important;">Job Notifications</h6>
-                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.3s">
-                        <a class="cat-item rounded p-4" href="./internships.html">
-                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"
-                                style="color: #f9a826  !important;"></i>
-                            <h6 class="mb-3" style="color: #3D3C4E !important;">Internships</h6>
-                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.5s">
-                        <a class="cat-item rounded p-4" href="./resume/index.html">
-                            <i class="fa fa-3x fa-book-reader text-primary mb-4" style="color: #f9a826 !important;"></i>
-                            <h6 class="mb-3" style="color: #3D3C4E !important;">Resume Builder</h6>
-                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6" data-wow-delay="0.7s">
-                        <a class="cat-item rounded p-4" href="">
-                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"
-                                style="color: #f9a826 !important;"></i>
-                            <h6 class="mb-3" style="color: #3D3C4E !important;">Careers</h6>
-                            <!-- <p class="mb-0" style="color: #3D3C4E !important;">123 Vacancy</p> -->
-                        </a>
-                    </div>
-                </div>
+            <h1>Browse and Apply for <span style="color:#f9a826"> Latest Job</span> <span>Openings</span></h1>
+            <div class="form-inline">
+              <div class="form-group col-12 col-md-5">
+                <input type="text" class="form-control w-100" placeholder="Search by job title" id="searchJobInput">
+              </div>
+              <div class="form-group col-12 col-md-5">
+                <input type="text" class="form-control w-100" placeholder="Search by joblocation" id="searchLocationInput">
+              </div>
+      
+              <div class="form-group col-12 col-md-2">
+                <button class="btn btn-outline-warning btn-block" onclick="filterJobs()">Search</button>
+              </div>
             </div>
+      
+          </div>
+
+
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div id="jobListings">
+                <!-- Job listings will be dynamically inserted here -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="jobDetails">
+                <!-- Job details will be dynamically inserted here -->
+              </div>
+      
+              <div id="jobModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="jobModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="jobModalLabel"></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id="jobModalBody">
+      
+                    </div>
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pages">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination" id="pagination">
+      
+                </ul>
+              </nav>
+              <div id="jobCount" class="job-count"></div>
+            </div>
+          </div>
+      
         </div>
-        <!-- Category End -->
+        <!-- Load the category from the templates folder using JavaScript -->
+        <div id="categoryContainer"></div>
 
+        <!-- Load the marquee from the templates folder using JavaScript -->
+        <div id="marqueeContainer"></div>
 
-   <!-- Load the marquee from the templates folder using JavaScript -->
-   <div id="marqueeContainer"></div>
-   
         <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -157,12 +155,10 @@
             </div>
         </div>
         <!-- About End -->
-
-
     </div>
-
-   <!-- Load the footer from the templates folder using JavaScript -->
-   <div id="footerContainer"></div>
+    
+        <!-- Load the footer from the templates folder using JavaScript -->
+        <div id="footerContainer"></div>
 
 </body>
 
