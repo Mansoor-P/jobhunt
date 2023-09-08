@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function () {
     var jobNames = $(".job-names .job-name");
     var currentIndex = 0;

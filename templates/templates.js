@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             navbarContainer.innerHTML = data;
         });
+        // Load the searchingNavContainer using JavaScript
+    const searchingNavContainer = document.getElementById('searchingNavContainer');
+    fetch('/mj-career/templates/searchingnav/searchingNav.html')
+        .then(response => response.text())
+        .then(data => {
+            searchingNavContainer.innerHTML = data;
+        });
 
     // Load the category using JavaScript
     const categoryContainer = document.getElementById('categoryContainer');
