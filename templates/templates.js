@@ -30,6 +30,13 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             marqueeContainer.innerHTML = data;
         });
+         // Load the latest using JavaScript
+    const latestJobsContainer = document.getElementById('latestJobsContainer');
+    fetch('templates/latest/latest.html')
+        .then(response => response.text())
+        .then(data => {
+            latestJobsContainer.innerHTML = data;
+        });
     // Load the footer using JavaScript
     const footerContainer = document.getElementById('footerContainer');
     fetch('templates/footer/footer.html')
