@@ -10,15 +10,15 @@
 }
 /* Navbar */
 .navbar {
-  padding-left: 20px; /* Add padding to the left */
-  padding-right: 20px; /* Add padding to the right */
+  padding-left: 20px;
+  padding-right: 20px; 
 }
 
 .footer__logo a {
   text-decoration: none;
   color: #f9a826;
-  font-size: 24px; /* Increase font size for the logo */
-  font-weight: bold; /* Make the logo font bold */
+  font-size: 24px;  
+  font-weight: bold; 
 }
 
 .navbar-toggler {
@@ -26,14 +26,13 @@
 }
 
 .navbar-nav .nav-item {
-  margin-right: 15px; /* Add margin between nav items */
+  margin-right: 15px;
 }
 
 .navbar-nav .nav-item a {
   text-decoration: none;
-  font-size: 20px; /* Increase font size for nav items */
-  color: #000;
-  transition: color 0.3s; /* Smooth color transition on hover */
+  font-size: 20px; 
+  transition: color 0.3s; 
 }
 
 .navbar-nav .nav-item a:hover {
@@ -44,7 +43,7 @@
 /* Responsive Navbar for Small Screens */
 @media (max-width: 768px) {
   .navbar-nav .nav-item {
-    margin-right: 0; /* Remove margin between nav items */
+    margin-right: 0;
     margin-bottom: 10px; /* Add margin at the bottom of nav items */
   }
 
@@ -280,7 +279,7 @@
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   padding: 20px;
   margin: 10px;
-  width: 100%; /* Make the card take the full width on small screens */
+  width: 100%;
 }
 
 .cat-card:hover {
@@ -293,7 +292,7 @@
   text-decoration: none;
   color: #3D3C4E;
   display: block;
-  padding-top: 20px; /* Increase padding on top for small screens */
+  padding-top: 20px; 
 }
 .cat-item h6{
   font-size: 20px;
@@ -663,3 +662,49 @@
 }
 
 /* footer end */
+
+
+
+/* latest jobs */
+
+ /* Add your CSS styles here */
+ .container-xxl {
+  padding-top: 40px;
+}
+
+/* Customize the WhatsApp, LinkedIn, and Facebook buttons */
+.btn-primary {
+  background-color: #25D366;
+  /* WhatsApp color */
+  color: white;
+}
+
+.linkedin-btn {
+  background-color: #007bb5;
+  /* LinkedIn color */
+  color: white;
+}
+
+.facebook-btn {
+  background-color: #3B5998;
+  /* Facebook color */
+  color: white;
+}
+
+.card {
+  height: auto;
+  /* Adjust card height as needed */
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-info-button {
+  padding: 10px 20px;
+}

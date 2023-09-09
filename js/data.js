@@ -1,37 +1,4 @@
 
-
-// // Dummy job data
-// var jobs = [
-
-//   {
-//     title: 'Cognizant Is Hiring For Engineer',
-//     company: 'Cognizant',
-//     location: 'multiple location',
-//     experience:'2-',
-//     salary: '4 LPA',
-//     description: ' Back End Developer,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsspring bootjavaspring mvcweb technologiesweb server',
-//     logo: './img/companies/cognigent/th.jpg',
-//     qualifications: ' Any Degree Batch:- 2020, 2021, 2022 & 2023',
-//     skills: ' Core Java 8 concepts, Spring Core, Spring MVC, Spring Boot, REST API, JSON, XML, SQL, Web Server ',
-//     responsibilities: ' Good written & Verbal communication Interested to work in Voice/Non-Voice Process Any graduates (Preferably Arts and science graduates) Flexible to work in Night shifts Ready to work from Office',
-//     applyLink: 'https://app.joinsuperset.com/company/cognizant/WestandCentralColleges.html'
-//   },
-
-//   {
-//     title: '',
-//     company: '',
-//     location: '',
-//     salary: '',
-//     description:'',
-//     logo: '.',
-//     qualifications: '',
-//     skills: '',
-//     responsibilities: '',
-//     applyLink: ''
-//   },
-// ];
-
-
 var jobs = [
   {
     "title":"ISRO IS HIRING: SCIENTIST/ ENGINEER",
@@ -308,6 +275,174 @@ var jobs = [
     "responsibilities":"",
     "description": "Identify the tasks and responsibilities on a Pega Implementation, create and extend a Pega application Manage rules and rulesets Leverage the Enterprise Class Structure (ECS) to promote rule reuse between case types and applications, configure roles, access groups, and privileges, manage data access within an application Create wizards to configure a sequence of assignments, design applications for multiple device types and screen sizes, including mobile devices and manage integration settingsRoles Responsibilities: Ability to work independently and as a member of a team Ability to work and communicate effectively with programmers and other IT staff and non-IT functional areas Strong communication, problem-solving and leadership skills Integrate multiple technologies using Pegasystems Architect, design, and develop advanced customizations utilizing Pega Optimize solutions by performing detailed code and design reviews Disseminate best practices on solution positioning and delivery Mentor junior team members in Pega technology best practices Manage offshore resources and provide technical specs to developersKindly drop cv with details at manpreet.kour@quikr.com with below detailsJob Role: Pega developers with COSMOS expexp: 5+Location: HYD, Noida, Bangalore, PuneNotice: Immediate to 30 daysBudget: max 40 LPA\r\nRole: Full Stack Developer,Industry Type: Software Product,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: B.Tech/B.E. in Any SpecializationKey SkillsSkills highlighted with ‘‘ are preferred keyskillsPRPCpegaCosmos",
     "applyLink": "https://www.naukri.com/job-listings-pega-developers-with-cosmos-exp-quikr-india-pvt-ltd-hyderabad-secunderabad-telangana-pune-maharashtra-bangalore-bengaluru-5-to-10-years-190523004860"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
+  },
+  {
+    "title": "Cognizant Technology Solution is hiring For Pyspark",
+    "company": "Cognizant",
+    "location": "Hyderabad/ Secunderabad,Telangana, Pune,Maharashtra, Gurgaon/ Gurugram,Haryana, Chennai,Tamil Nadu, Bangalore/ Bengaluru,Karnataka",
+    "experience": "4 - 9 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "PysparkRole: DeveloperDesired Experience Range: 4 to 9 yearsLocation: Chennai/Bangalore/Pune/Hyderabad/Gurgoan Notice period : Immediate- 90 Days COGNIZANT AIA PRACTICE:Cognizants AI & Analytics practice helps our clients imagine and build the Digital Economy. We are recognized by Forrester, Gartner and by other leading analyst firms as a Leader in Data and AI technologies and services, citing us as the right partner to help create a business running on AI. We do this by bringing together human insight, digital strategy, industry knowledge, design thinking, and the latest technologies to create new experiences and launch new business models.\r\n Roles & Responsibilities :\r\n The developer must have sound knowledge in Apache Spark and Python programming.Experience should be 4-6 yearsDeep experience in developing data transforming and processing tasks using pySpark such as reading data from external sources, merge data, perform data enrichment      and load in to target data destinations.Developer must have  strong experience with Hadoop technologies.Developer also needs to have hands on experience in RDBMS.Developer also needs to have  hands on experience in the shell-scripting.The Developer also needs able to do the maintenance activity like fixing the bugs by analyzing it and able to maintain the jobs flow smooth.Experience in working in the SAFe/agile model is added advantage  Benefits:Exposure to new processes and technologies.Competitive salary at par with the best in the industry.Flexible and employee friendly environment.Interested Candidates apply here :  https://forms.office.com/r/mfNYkH84X3\r\n\r\n\r\n\r\nRole: Software Development - Other,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: Software DevelopmentEducationUG: Any GraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillspyspark",
+    "logo": "./img/companies/cognigent/th.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-technology-solution-is-hiring-for-pyspark-cognizant-hyderabad-secunderabad-telangana-pune-maharashtra-gurgaon-gurugram-haryana-chennai-tamil-nadu-bangalore-bengaluru-karnataka-4-to-9-years-190523007797"
+  },
+   {
+    "title": "Senior Ms Sql Database Administrator",
+    "company": "Tata Consultancy Services (TCS)",
+    "location": "Kolkata, Hyderabad/Secunderabad, Chennai, Bangalore/ Bengaluru,Karnataka",
+    "experience": "7 - 12 years",
+    "salary":"",
+    "skills":"",
+    "responsibilities":"",
+    "description": "MSSQL Server: Expert in MSSQL 2014, 2016, 2019   internals.In-depth knowledge and expertise on High   Availability/DR/ReplicationExpertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Hands-on and expertise on build the   DB migration, DB upgrade and Patching.Backup and Recovery, implement SSL   encryption, TDE and good knowledge on Access management.  Expertise on database performance   analysis and troubleshooting. Responsible for Query tuning and   preventative maintenance.Expertise in Automation using tools   like (PowerShell, Puppet, Python, shell scripting, Git, REST APIs etc)Knowledge & Hands-on Experience of   Cloud Databases (AWS Preferred).DevOps Knowledge.PostgreSQLExpertise in   PostgreSQL\\Aurora database Administration (On-Prem\\AWS)Good knowledge   on Administering AWS RDS databases and databases hosted on EC2.Expertise in Design, Capacity   planning and provide strategic HA\\DR solutions based on Business requirement.   Performance analysis and troubleshooting.Experience in implementing HA\\DR\\replication,   failover and troubleshooting replication lags. Expertise in installation, Upgrade,   and patching. Backup and RecoveryHands-on in   implementing Database monitoring using shell\\Perl scripts and using tool like   Datadog. \r\n\r\n\r\n\r\nRole: Database Administrator,Industry Type: IT Services & Consulting,Department: Engineering - Software & QA,Employment Type: Full Time, PermanentRole Category: DBA / Data warehousingEducationUG: Any GraduatePG: Any PostgraduateKey SkillsSkills highlighted with ‘‘ are preferred keyskillsMSSQL DBAReplicationPerformance Tuning",
+    "logo": "./img/companies/tcs/TCS-1.jpg",
+    "applyLink": "https://www.naukri.com/job-listings-senior-ms-sql-database-administrator-tata-consultancy-services-tcs-kolkata-hyderabad-secunderabad-chennai-bangalore-bengaluru-karnataka-7-to-12-years-250523005387"
   },
 
 ]
