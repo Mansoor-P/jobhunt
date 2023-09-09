@@ -29,8 +29,15 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             categoryContainer.innerHTML = data;
         });
+            // Load the marquee using JavaScript
+    const marqueeContainer = document.getElementById('marqueeContainer');
+    fetch('./templates/marquee/marquee.html')
+        .then(response => response.text())
+        .then(data => {
+            marqueeContainer.innerHTML = data;
+        });
 
-        // Load the marquee using JavaScript
+        // Load the latestjobs using JavaScript
     const latestJobsContainer = document.getElementById('latestJobsContainer');
     fetch('./templates/latest/latestjobs.html')
         .then(response => response.text())
