@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- bootstrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/mj-career/css/allstyles.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>Mj Career</title>
+
+
+
+
+  <style>
+    /* Styles for large screens */
+    .carousel-inner img {
+      width: 100%;
+      max-height: 360px;
+      border-radius: 20px;
+      filter: blur(3px);
+      /* Decrease image blurriness */
+    }
+
+    .carousel-content {
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translate(0, -50%);
+      color: #fff;
+      z-index: 1;
+      margin-left: 40px;
+    }
+
+    .carousel-content h3 {
+      font-size: 36px;
+      /* Increase font size for "Careers" slide */
+      margin-bottom: 10px;
+      font-family: Arial, sans-serif;
+      /* Change font-family */
+    }
+
+    .carousel-content p {
+      font-size: 18px;
+      /* Increase font size for description */
+      margin-bottom: 20px;
+      font-family: Times New Roman, serif;
+      /* Change font-family */
+    }
+
+    .carousel-content a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .carousel-content a.button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Media query for tablets */
+    @media (max-width: 768px) {
+      .carousel-inner img {
+        max-height: 250px;
+      }
+
+      .carousel-content {
+        left: 5%;
+      }
+    }
+
+    /* Media query for mobile */
+    @media (max-width: 480px) {
+      .carousel-inner img {
+        max-height: 150px;
+      }
+
+      .carousel-content {
+        left: 10%;
+      }
+    }
+
+    /* Style for carousel indicators */
+    .carousel-indicators li {
+      margin-right: 10px;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      background-color: #ccc;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container-fluid carousel-container"> <!-- Change the class name here -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol> -->
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/mj-career/img/c1.jpg" alt="jobs">
+          <div class="carousel-content">
+            <h3>Jobs Notifications</h3>
+            <p>Stay updated with the latest job opportunities.</p>
+            <a class="button" href="/mj-career/job-notifications.html">Apply</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="/mj-career/img/coding.jpg" alt="internships">
+          <div class="carousel-content">
+            <h3>Internships</h3>
+            <p>Explore exciting internship programs.</p>
+            <a class="button" href="/mj-career/internships.html">See More</a>
+          </div>
+        </div>
+
+        <div class="item ">
+          <img src="/mj-career/img/oneway.jpg" alt="careers">
+          <div class="carousel-content">
+            <h3>Careers</h3>
+            <p>Discover your career path with us.</p>
+            <a class="button" href="/mj-career/index.html">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- carousel end -->
+
+
+ 
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</html>

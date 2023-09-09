@@ -9,15 +9,17 @@
   --scroll-end: calc(-100% - var(--gap));
 }
 
-/* nav bar */
+/* Navbar */
 .navbar {
   padding-left: 20px; /* Add padding to the left */
+  padding-right: 20px; /* Add padding to the right */
 }
 
 .footer__logo a {
   text-decoration: none;
   color: #f9a826;
   font-size: 24px; /* Increase font size for the logo */
+  font-weight: bold; /* Make the logo font bold */
 }
 
 .navbar-toggler {
@@ -30,7 +32,7 @@
 
 .navbar-nav .nav-item a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px; /* Increase font size for nav items */
   color: #000;
   transition: color 0.3s; /* Smooth color transition on hover */
 }
@@ -40,7 +42,35 @@
   text-decoration: none;
 }
 
-/* nav end */
+/* Responsive Navbar for Small Screens */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 0; /* Remove margin between nav items */
+    margin-bottom: 10px; /* Add margin at the bottom of nav items */
+  }
+
+  .navbar-toggler {
+    margin-right: 0; /* Remove margin for the toggler button */
+    margin-left: auto; /* Move the toggler to the right */
+  }
+
+  .navbar-collapse {
+    padding-top: 10px; /* Add padding to the top of the collapsed menu */
+  }
+
+ 
+
+  .navbar-nav .nav-item a {
+    font-size: 18px; /* Reduce font size for small screens */
+  }
+
+  .footer__logo {
+    text-align: left; /* Align the footer logo to the left */
+    margin-right: auto; /* Move the footer logo to the left */
+  }
+}
+/* Navbar End */
+
 
 /* searching container */
 .form-control:focus {

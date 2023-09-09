@@ -7,12 +7,19 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             navbarContainer.innerHTML = data;
         });
-        // Load the searchingNavContainer using JavaScript
+    // Load the searchingNavContainer using JavaScript
     const searchingNavContainer = document.getElementById('searchingNavContainer');
     fetch('/mj-career/templates/searchingnav/searchingNav.html')
         .then(response => response.text())
         .then(data => {
             searchingNavContainer.innerHTML = data;
+        });
+    // Load the carouselContainer using JavaScript
+    const carouselContainer = document.getElementById('carouselContainer');
+    fetch('/mj-career/templates/carousel/carousel.html')
+        .then(response => response.text())
+        .then(data => {
+            carouselContainer.innerHTML = data;
         });
 
     // Load the category using JavaScript
@@ -30,13 +37,14 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
             marqueeContainer.innerHTML = data;
         });
-         // Load the latest using JavaScript
+        // Load the marquee using JavaScript
     const latestJobsContainer = document.getElementById('latestJobsContainer');
-    fetch('templates/latest/latest.html')
+    fetch('templates/latest/latestjobs.html')
         .then(response => response.text())
         .then(data => {
             latestJobsContainer.innerHTML = data;
         });
+    
     // Load the footer using JavaScript
     const footerContainer = document.getElementById('footerContainer');
     fetch('templates/footer/footer.html')
