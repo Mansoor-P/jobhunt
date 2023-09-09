@@ -8,7 +8,6 @@
   --scroll-start: 0;
   --scroll-end: calc(-100% - var(--gap));
 }
-
 /* Navbar */
 .navbar {
   padding-left: 20px; /* Add padding to the left */
@@ -71,6 +70,8 @@
 }
 /* Navbar End */
 
+/* Navbar End */
+
 
 /* searching container */
 .form-control:focus {
@@ -131,7 +132,6 @@
 }
 
 .form-inline {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -149,6 +149,7 @@
 }
 
 .form-inline input {
+  font-size: 18px;
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -294,6 +295,9 @@
   display: block;
   padding-top: 20px; /* Increase padding on top for small screens */
 }
+.cat-item h6{
+  font-size: 20px;
+}
 
 .cat-item:hover {
   color: #f9a826;
@@ -356,6 +360,7 @@
 
 
 /* marquee start */
+
 /* Parent wrapper */
 .wrapper {
   display: flex;
