@@ -14,7 +14,12 @@ const Footer = () => {
             </svg>
           </a>
           <p className="text-body-secondary">© 2023</p>
-          <img src="../public/assets/joblogo.png"  alt="" width={250} height={250} />
+          <img
+            src="/public/assets/joblogo.png"
+            alt=""
+            width={250}
+            height={250}
+          />
         </div>
         <div className="col mb-3"></div>
         <div className="col mb-3">
