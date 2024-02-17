@@ -12,9 +12,9 @@ const Jobs = () => {
           <div key={job.id} className="col">
             <div className="card">
               <div className="card-body">
-              <Link to={`/jobs_notifications/${job.id}`}>
-                    <h5 className="card-title">{job.name}</h5>
-                  </Link>
+                <Link to={`/jobs_notifications/${job.id}`}>
+                  <h5 className="card-title">{job.name}</h5>
+                </Link>
                 <p className="card-text">Salary: {job.salary}</p>
                 <p className="card-text">Location: {job.location}</p>
                 <p className="card-text">Skills: {job.skills.join(", ")}</p>
