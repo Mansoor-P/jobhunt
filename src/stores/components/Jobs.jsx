@@ -2,7 +2,7 @@ import React from "react";
 import { jobData } from "../data/jobsdata";
 import { Link } from "react-router-dom";
 const Jobs = () => {
-  const limitedJobs = jobData.slice(0, 6); // Select the first 6 jobs
+  const limitedJobs = jobData.slice(0, 4); // Select the first 6 jobs
 
   return (
     <div className="container my-4">

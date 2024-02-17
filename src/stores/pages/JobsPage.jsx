@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 import { Link } from "react-router-dom";
 const JobsPage = () => {
-  const allJobs = jobData.slice(6, 10); // Select the first 6 jobs
+  const allJobs = jobData.slice(5, 10); // Select the first 6 jobs
 
   return (
     <div>
