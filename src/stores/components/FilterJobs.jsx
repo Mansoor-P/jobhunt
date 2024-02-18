@@ -1,17 +1,17 @@
 import React from "react";
+import "./FilterJobs.css"; // Import CSS file for styling
 
 const FilterJobs = ({ uniqueCompanies, selectedCompanies, companyHandler }) => {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }}>
+    <div className="filter-jobs-container">
       {uniqueCompanies.map((company) => (
-        <div key={company} style={{ marginRight: "10px" }}>
-          <input
-            type="checkbox"
-            checked={selectedCompanies.includes(company)}
-            onChange={() => companyHandler(company)}
-          />
+        <button
+          key={company}
+          className={`company-button ${selectedCompanies.includes(company) ? "selected" : ""}`}
+          onClick={() => companyHandler(company)}
+        >
           {company}
-        </div>
+        </button>
       ))}
     </div>
   );

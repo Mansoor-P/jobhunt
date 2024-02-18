@@ -1,0 +1,28 @@
+.filter-jobs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.company-button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid #52cf61;
+  border-radius: 45px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.company-button:hover {
+  background-color: #f3f3f3;
+}
+
+.company-button.selected {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.company-button.selected:hover {
+  background-color: #0d5cb6;
+}

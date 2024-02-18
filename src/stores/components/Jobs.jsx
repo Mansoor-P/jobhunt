@@ -19,9 +19,7 @@ const Jobs = () => {
                 <p className="card-text">Location: {job.location}</p>
                 <p className="card-text">Skills: {job.skills.join(", ")}</p>
                 <p className="card-text">Details: {job.details}</p>
-                <a href={job.applyLink} className="btn btn-primary">
-                  Apply
-                </a>
+                
               </div>
             </div>
           </div>

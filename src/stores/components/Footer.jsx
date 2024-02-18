@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
           <p className="text-body-secondary">© 2023</p>
           <img
-            src="/public/assets/joblogo.png"
+            src="../public/assets/LOGO1.png"
             alt=""
             width={250}
             height={250}
