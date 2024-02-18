@@ -89,7 +89,7 @@ const JobsSinglePage = () => {
                     href={job.applyLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary"
+                    className="btn btn-success"
                   >
                     Apply Now
                   </a>

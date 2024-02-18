@@ -15,14 +15,14 @@
 }
 
 .company-button:hover {
-  background-color: #f3f3f3;
+  background-color: #21dd41;
 }
 
 .company-button.selected {
-  background-color: #2196f3;
+  background-color: #21f387;
   color: #fff;
 }
 
 .company-button.selected:hover {
-  background-color: #0d5cb6;
+  background-color: #0b9a61;
 }

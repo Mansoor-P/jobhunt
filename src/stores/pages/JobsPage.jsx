@@ -44,14 +44,14 @@ const JobsPage = () => {
               <div className="card">
                 <div className="card-body">
                   <Link to={`/jobs_notifications/${job.id}`}>
-                    <h5 className="card-title">{job.name}</h5>
+                    <h5 className="card-title link-success ">{job.name}</h5>
                   </Link>
                   <p className="card-text">Company: {job.company}</p>
                   <p className="card-text">Salary: {job.salary}</p>
                   <p className="card-text">Location: {job.location}</p>
                   <p className="card-text">Skills: {job.skills.join(", ")}</p>
                   <p className="card-text">Details: {job.details}</p>
-                  <a href={job.applyLink} className="btn btn-primary">
+                  <a href={job.applyLink} className="btn btn-success">
                     Apply
                   </a>
                 </div>

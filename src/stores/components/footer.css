@@ -1,6 +1,4 @@
-/* Add this CSS to your stylesheets or style section */
 
-/* Default styles for larger screens */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -8,19 +6,18 @@
 }
 
 .footer-col {
-  flex: 1 0 20%; /* Adjust the width as needed */
+  flex: 1 0 20%;
   margin-bottom: 20px;
 }
 
-/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   .footer-col {
-    flex: 1 0 50%; /* Adjust the width for smaller screens */
+    flex: 1 0 50%; 
   }
 }
 
 @media (max-width: 576px) {
   .footer-col {
-    flex: 1 0 100%; /* Adjust the width for even smaller screens */
+    flex: 1 0 100%; 
   }
 }
