@@ -1,10 +1,15 @@
+// Header.js
+
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import "./Header.css"; // Import the CSS file
 
 const Header = () => {
+  const location = useLocation();
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img src="../public/assets/LOGO1.png" alt="logo" />
@@ -23,12 +28,20 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
             <ul className="navbar-nav">
-              <li className="nav-item">
+              <li
+                className={`nav-item ${
+                  location.pathname === "/" ? "active" : ""
+                }`}
+              >
                 <Link className="nav-link" to="/">
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className={`nav-item ${
+                  location.pathname === "/jobs_notifications" ? "active" : ""
+                }`}
+              >
                 <Link className="nav-link" to="/jobs_notifications">
                   Jobs Notifications
                 </Link>
