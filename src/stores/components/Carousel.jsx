@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
+import "./Carousel.css";
 const Carousel = () => {
   const carouselItems = [
     {
@@ -49,7 +49,7 @@ const Carousel = () => {
               src={item.imagePath}
               className="d-block w-100 "
               alt={`Slide ${index + 1}`}
-              height={300}
+              height={400}
             />
             <div className="carousel-caption d-none d-md-block">
               <h5>{item.label}</h5>
