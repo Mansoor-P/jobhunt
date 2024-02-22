@@ -3,6 +3,7 @@ import LandingPage from "./stores/pages/LandingPage";
 import { Routes, Route } from "react-router-dom";
 import JobsPage from "../src/stores/pages/JobsPage";
 import JobsSinglePage from "../src/stores/singles/JobsSinglePage";
+import "./App.css";
 const App = () => {
   return (
     <div>

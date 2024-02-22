@@ -1,0 +1,11 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box; /* Apply border-box sizing to all elements */
+  }
+  
+  body {
+    padding: 25px; /* Add padding to the body to create space around the content */
+    margin: 0; /* Remove default margin */
+  }
+  
