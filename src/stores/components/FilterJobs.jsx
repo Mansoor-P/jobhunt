@@ -1,5 +1,5 @@
 import React from "react";
-import "./FilterJobs.css"; // Import CSS file for styling
+import "./FilterJobs.css";
 
 const FilterJobs = ({ uniqueCompanies, selectedCompanies, companyHandler }) => {
   return (

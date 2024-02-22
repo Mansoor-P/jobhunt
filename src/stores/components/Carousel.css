@@ -22,17 +22,13 @@
   font-size: 2rem;
 }
 
-
-
 .carousel-indicators {
   margin-top: 20px;
 }
 
-
 button .carousel-control-prev{
   color: #F0F3FF;
 }
-
 
 /* Responsive styles */
 @media (max-width: 576px) {

@@ -6,18 +6,18 @@ const Carousel = () => {
   const carouselItems = [
     {
       imagePath: "assets/images/c1.jpg",
-      label: "First slide label",
-      content: "Some representative placeholder content for the first slide.",
+      label: "Unlock Opportunities",
+      content: "Explore, Apply, Thrive – Your Dream Job Awaits!",
     },
     {
       imagePath: "assets/images/coding.jpg",
-      label: "Second slide label",
-      content: "Some representative placeholder content for the second slide.",
+      label: "Career Catalyst Hub",
+      content: "Ignite Your Career, Propel Your Success – Discover Endless Possibilities!",
     },
     {
       imagePath: "assets/images/oneway.jpg",
-      label: "Third slide label",
-      content: "Some representative placeholder content for the third slide.",
+      label: "Pathways to Progress",
+      content: "Navigate Your Career Journey – Where Aspirations Meet Opportunities!",
     },
   ];
 

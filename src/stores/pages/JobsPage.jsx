@@ -4,18 +4,22 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import FilterJobs from "../components/FilterJobs";
-
 const JobsPage = () => {
-  const allJobs = jobData.slice(5, 10); // Select the first 6 jobs
+  const allJobs = jobData.slice(5, 10);
 
   const [selectedCompanies, setSelectedCompanies] = useState([]);
 
-  // Extract unique companies from the job data
-  const uniqueCompanies = Array.from(new Set(jobData.map((job) => job.company)));
+  const uniqueCompanies = Array.from(
+    new Set(jobData.map((job) => job.company))
+  );
 
   const companyHandler = (company) => {
     if (selectedCompanies.includes(company)) {
-      setSelectedCompanies(selectedCompanies.filter((selectedCompany) => selectedCompany !== company));
+      setSelectedCompanies(
+        selectedCompanies.filter(
+          (selectedCompany) => selectedCompany !== company
+        )
+      );
     } else {
       setSelectedCompanies([...selectedCompanies, company]);
     }
@@ -44,14 +48,14 @@ const JobsPage = () => {
               <div className="card">
                 <div className="card-body">
                   <Link to={`/jobs_notifications/${job.id}`}>
-                    <h5 className="card-title link-success ">{job.name}</h5>
+                    <h5 className="card-title  ">{job.name}</h5>
                   </Link>
                   <p className="card-text">Company: {job.company}</p>
                   <p className="card-text">Salary: {job.salary}</p>
                   <p className="card-text">Location: {job.location}</p>
                   <p className="card-text">Skills: {job.skills.join(", ")}</p>
                   <p className="card-text">Details: {job.details}</p>
-                  <a href={job.applyLink} className="btn btn-success">
+                  <a href={job.applyLink} className="apply-btn">
                     Apply
                   </a>
                 </div>

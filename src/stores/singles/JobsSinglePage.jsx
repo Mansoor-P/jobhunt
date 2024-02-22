@@ -1,5 +1,3 @@
-// JobsSinglePage.jsx
-
 import React from "react";
 import { jobData } from "../data/jobsdata";
 import { useParams } from "react-router-dom";
@@ -11,7 +9,7 @@ import {
   FaEnvelope,
   FaExternalLinkAlt,
 } from "react-icons/fa";
-import "./JobsSinglePage.css"; // Import your CSS file
+import "./JobsSinglePage.css";
 
 const JobsSinglePage = () => {
   const { id } = useParams();
@@ -89,7 +87,7 @@ const JobsSinglePage = () => {
                     href={job.applyLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-success"
+                    className="apply-btn"
                   >
                     Apply Now
                   </a>

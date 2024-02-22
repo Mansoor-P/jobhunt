@@ -2,12 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .company-button {
   margin: 5px;
   padding: 10px 15px;
-  border: 1px solid #52cf61;
+  border: 1px solid #836FFF;
   border-radius: 45px;
   cursor: pointer;
   background-color: #fff;
@@ -15,14 +16,14 @@
 }
 
 .company-button:hover {
-  background-color: #21dd41;
+  background-color: #836FFF;
 }
 
 .company-button.selected {
-  background-color: #21f387;
+  background-color: #b7c5fa;
   color: #fff;
 }
 
 .company-button.selected:hover {
-  background-color: #0b9a61;
+  background-color: #b9c7fc;
 }
