@@ -21,3 +21,38 @@
     flex: 1 0 100%; 
   }
 }
+/* footer.css */
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* Background color */
+footer {
+  background-color: #211951;
+}
+
+/* Padding and margin adjustments */
+.container.py-5.my-5.border-top {
+  padding: 40px 15px;
+}
+
+.row-cols-1.row-cols-sm-2.row-cols-md-5 {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col.mb-3 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Text color adjustment */
+.text-body-secondary {
+  color: #ffffff; /* Adjust text color as needed */
+}
+

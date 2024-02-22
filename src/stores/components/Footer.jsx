@@ -1,24 +1,21 @@
 import React from "react";
 import "./footer.css";
+
 const Footer = () => {
   return (
-    <footer className="container py-5 my-5 border-top">
+    <footer
+      className="container-fluid py-5 my-5 border-top"
+      style={{ backgroundColor: "#211951" }}
+    >
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5">
         <div className="col mb-3">
-          <a
-            href="/"
-            className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
-          >
-            <svg className="bi me-2" width={40} height={32}>
-              <use xlinkHref="#bootstrap" />
-            </svg>
-          </a>
           <p className="text-body-secondary">© 2023</p>
           <img
             src="../public/assets/LOGO1.png"
             alt=""
             width={250}
             height={250}
+            className="img-fluid" // Added responsive image class
           />
         </div>
         <div className="col mb-3"></div>
@@ -59,7 +56,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col mb-3">
-          <h5>Important links</h5>
+          <h5>Section 2</h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-2">
               <a
