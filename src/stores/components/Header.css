@@ -8,8 +8,10 @@
   margin-left: 24px;
   margin-right: 24px;
 }
+
 .navbar-brand img {
   width: 100px;
+
 }
 .navbar-nav li {
   
@@ -17,6 +19,7 @@
 }
 
 @media (max-width: 576px) {
+ 
   .navbar-brand img {
     width: 100px;
   }

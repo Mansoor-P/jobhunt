@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           {/* <img src="/assets/LOGO1.png" alt="logo" /> */}
-          JobCareer
+          <h1 className="text-dark">JobCareer</h1>
         </Link>
         <button
           className="navbar-toggler"
