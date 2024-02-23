@@ -30,7 +30,6 @@ button .carousel-control-prev{
   color: #F0F3FF;
 }
 
-/* Responsive styles */
 @media (max-width: 576px) {
     .carousel-inner {
       height: 300px; 

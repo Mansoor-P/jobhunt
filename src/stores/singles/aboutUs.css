@@ -1,0 +1,20 @@
+.container {
+    background-color: #f0f3ff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+ 
+  h2 {
+    color: #211951;
+  }
+  
+  p {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  strong {
+    color: #211951;
+  }
+  

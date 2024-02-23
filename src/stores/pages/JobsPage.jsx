@@ -55,9 +55,9 @@ const JobsPage = () => {
                   <p className="card-text">Location: {job.location}</p>
                   <p className="card-text">Skills: {job.skills.join(", ")}</p>
                   <p className="card-text">Details: {job.details}</p>
-                  <a href={job.applyLink} className="apply-btn">
-                    Apply
-                  </a>
+                  <Link to={"/message"}>
+                    <a href="">Apply Here</a>
+                  </Link>
                 </div>
               </div>
             </div>

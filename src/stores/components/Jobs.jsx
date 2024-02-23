@@ -1,5 +1,3 @@
-// Jobs.js
-
 import React from "react";
 import { jobData } from "../data/jobsdata";
 import { Link } from "react-router-dom";

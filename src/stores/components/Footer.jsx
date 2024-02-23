@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./footer.css";
 
 const Footer = () => {
-  // Define an array of link categories with name and path
   const linkCategories = [
     {
       name: "Job Portal",
@@ -13,10 +14,7 @@ const Footer = () => {
     },
     {
       name: "Important links",
-      links: [
-        { text: "About Us", path: "/about-us" },
-        { text: "Privacy Policy", path: "/privacy-policy" },
-      ],
+      links: [{ text: "About Us", path: "/about_us" }],
     },
     {
       name: "Connect Me Here",
@@ -27,18 +25,19 @@ const Footer = () => {
       ],
     },
   ];
-
   return (
     <footer className="container-fluid py-5 my-5">
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 m-2">
         <div className="col mb-3">
-          <img
-            src="../public/assets/LOGO1.png"
-            alt=""
-            width={150}
-            height={150}
-            className="img-fluid"
-          />
+          <Link className="navbar-brand" to="/">
+            <img
+              src="../public/assets/LOGO1.png"
+              alt=""
+              width={150}
+              height={150}
+              className="img-fluid"
+            />
+          </Link>
         </div>
 
         {/* Map through link categories */}
@@ -57,6 +56,7 @@ const Footer = () => {
             </ul>
           </div>
         ))}
+        
       </div>
     </footer>
   );

@@ -1,4 +1,3 @@
-// Add.jsx
 import React from "react";
 import "./Add.css";
 
