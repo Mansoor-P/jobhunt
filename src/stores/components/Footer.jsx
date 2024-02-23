@@ -30,13 +30,14 @@ const Footer = () => {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 m-2">
         <div className="col mb-3">
           <Link className="navbar-brand" to="/">
-            <img
+            {/* <img
               src="public\assets\LOGO1.png"
               alt="footer logo"
               width={150}
               height={150}
               className="img-fluid"
-            />
+            /> */}
+            JobCareer
           </Link>
         </div>
 

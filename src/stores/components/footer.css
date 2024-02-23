@@ -7,7 +7,13 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+.navbar-brand{
+  font-size: 2rem;
+  color: white;
+}
+.navbar-brand:hover{
+  color: #836FFF;
+}
 .footer-col {
   flex: 1 0 20%;
   margin-bottom: 20px;
