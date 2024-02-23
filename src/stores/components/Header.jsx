@@ -10,7 +10,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src="../public/assets/LOGO1.png" alt="logo" />
+          <img src="assets/LOGO1.png" alt="logo" />
         </Link>
         <button
           className="navbar-toggler"

@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="col mb-3">
           <Link className="navbar-brand" to="/">
             <img
-              src="../public/assets/LOGO1.png"
+              src="assets/LOGO1.png"
               alt=""
               width={150}
               height={150}
