@@ -10,7 +10,6 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          {/* <img src="/assets/LOGO1.png" alt="logo" /> */}
           <h1 className="text-dark">JobCareer</h1>
         </Link>
         <button

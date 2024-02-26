@@ -1,11 +1,11 @@
 import React from "react";
-import LandingPage from "./stores/pages/LandingPage";
 import { Routes, Route } from "react-router-dom";
-import JobsPage from "../src/stores/pages/JobsPage";
-import JobsSinglePage from "../src/stores/singles/JobsSinglePage";
+import LandingPage from "./pages/LandingPage";
+import JobsPage from "./pages/JobsPage";
+import JobsSinglePage from "./singles/JobsSinglePage";
+import AboutUsPage from "./singles/aboutUs/AboutUsPage";
+import MessageComponent from "./components/sharedcomponents/MessageComponent ";
 import "./App.css";
-import AboutUsPage from "./stores/singles/AboutUsPage";
-import MessageComponent from "./stores/sharedcomponents/MessageComponent ";
 
 const App = () => {
   return (

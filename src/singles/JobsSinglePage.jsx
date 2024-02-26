@@ -1,6 +1,8 @@
 import React from "react";
 import { jobData } from "../data/jobsdata";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import {
   FaMoneyBillAlt,
   FaMapMarkerAlt,
@@ -83,14 +85,7 @@ const JobsSinglePage = () => {
 
               <div className="row mt-4">
                 <div className="col">
-                  <a
-                    href={job.applyLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="apply-btn"
-                  >
-                    Apply Now
-                  </a>
+                  <Link to={"/message"} >Apply Here</Link>
                 </div>
               </div>
             </>

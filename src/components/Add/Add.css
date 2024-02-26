@@ -1,3 +1,4 @@
+/* Advertisement styles start*/
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -71,3 +72,4 @@
     width: 50%;
   }
 }
+/* Advertisement styles End */
