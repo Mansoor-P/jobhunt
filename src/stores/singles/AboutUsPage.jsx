@@ -5,7 +5,7 @@ import "./aboutUs.css";
 
 const AboutUsPage = () => {
   const developerName = "Mansoor"; 
-  const graduationStatus = "recent MCA graduate"; 
+  const graduationStatus = "MCA Graduate"; 
 
   return (
     <>

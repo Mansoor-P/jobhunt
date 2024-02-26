@@ -49,15 +49,14 @@ const Footer = () => {
               {/* Map through links in each category */}
               {category.links.map((link, linkIndex) => (
                 <li key={linkIndex} className="nav-item mb-2">
-                  <a href={link.path} className="nav-link p-0 footer-links">
+                  <Link to={link.path} className="nav-link p-0 footer-links">
                     {link.text}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
         ))}
-        
       </div>
     </footer>
   );
