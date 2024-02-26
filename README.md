@@ -24,9 +24,7 @@ Explore the latest job opportunities with our clean and organized job listings. 
 
 - **Upcoming Features:** Exciting plans for the future include integrating REST APIs, using Java as the backend, and incorporating databases like MongoDB and MySQL. These enhancements will elevate the functionality and scalability of the portal.
 
-## Contributing
 
-This project is open source, and contributions from the community are highly encouraged. If you're passionate about software development and want to contribute to the growth of our Job Portal, feel free to explore the [GitHub repository](https://github.com/your-username/your-job-portal-repo).
 
 ## Get Involved
 
