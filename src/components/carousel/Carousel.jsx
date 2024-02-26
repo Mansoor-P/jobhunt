@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Carousel.css";
+
 const Carousel = () => {
   const carouselItems = [
     {
@@ -12,12 +13,14 @@ const Carousel = () => {
     {
       imagePath: "assets/images/coding.jpg",
       label: "Career Catalyst Hub",
-      content: "Ignite Your Career, Propel Your Success – Discover Endless Possibilities!",
+      content:
+        "Ignite Your Career, Propel Your Success – Discover Endless Possibilities!",
     },
     {
       imagePath: "assets/images/oneway.jpg",
       label: "Pathways to Progress",
-      content: "Navigate Your Career Journey – Where Aspirations Meet Opportunities!",
+      content:
+        "Navigate Your Career Journey – Where Aspirations Meet Opportunities!",
     },
   ];
 

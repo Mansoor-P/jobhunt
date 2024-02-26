@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { jobData } from "../data/jobsdata";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import FilterJobs from "../components/FilterJobs";
+import { jobData } from "../data/jobsdata";
+import Header from "../components/header/Header";
+import FilterJobs from "../components/jobs/filterJobs/FilterJobs";
+import Footer from "../components/footer/Footer";
+
 const JobsPage = () => {
   const allJobs = jobData.slice(5, 10);
 
@@ -55,8 +56,8 @@ const JobsPage = () => {
                   <p className="card-text">Location: {job.location}</p>
                   <p className="card-text">Skills: {job.skills.join(", ")}</p>
                   <p className="card-text">Details: {job.details}</p>
-                  <Link to={"/message"}>
-                    <a href="">Apply Here</a>
+                  <Link to={`/jobs_notifications/${job.id}`}>
+                    Apply Here
                   </Link>
                 </div>
               </div>

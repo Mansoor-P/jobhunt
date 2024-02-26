@@ -74,9 +74,6 @@ h2 {
   margin-top: 20px;
 }
 
-.btn-primary:hover {
-  background-color: #1ebf44;
-}
 
 @media (min-width: 768px) {
   .job-details-container {

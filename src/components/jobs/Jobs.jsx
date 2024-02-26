@@ -1,8 +1,8 @@
 import React from "react";
-import { jobData } from "../data/jobsdata";
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa";
-import "../singles/JobsSinglePage.css";
+import { jobData } from "../../data/jobsdata";
+import "../../singles/JobsSinglePage.css";
 
 const Jobs = () => {
   const limitedJobs = jobData.slice(0, 4);

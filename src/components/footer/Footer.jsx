@@ -30,23 +30,13 @@ const Footer = () => {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 m-2">
         <div className="col mb-3">
           <Link className="navbar-brand" to="/">
-            {/* <img
-              src="public\assets\LOGO1.png"
-              alt="footer logo"
-              width={150}
-              height={150}
-              className="img-fluid"
-            /> */}
             JobCareer
           </Link>
         </div>
-
-        {/* Map through link categories */}
         {linkCategories.map((category, index) => (
           <div key={index} className="col mb-3">
             <h5>{category.name}</h5>
             <ul className="nav flex-column">
-              {/* Map through links in each category */}
               {category.links.map((link, linkIndex) => (
                 <li key={linkIndex} className="nav-item mb-2">
                   <a href={link.path} className="nav-link p-0 footer-links">
@@ -57,7 +47,6 @@ const Footer = () => {
             </ul>
           </div>
         ))}
-        
       </div>
     </footer>
   );
