@@ -1,0 +1,136 @@
+/* Base styles */
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --font-size-base: 16px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height-base: 1.5;
+  --letter-spacing-base: 0.5px;
+  --word-spacing-base: 1px;
+  --padding-base: 1rem;
+  --margin-base: 1rem;
+  --background-color: #ffffff;
+  --text-color: #333333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-base);
+  word-spacing: var(--word-spacing-base);
+  padding: var(--padding-base);
+  margin: var(--margin-base);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+/* Responsive typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Responsive spacing */
+.container {
+  padding: var(--padding-base);
+  margin: auto;
+}
+
+.section {
+  padding: var(--padding-base) 0;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --font-size-base: 15px;
+    --padding-base: 0.75rem;
+    --margin-base: 0.75rem;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --font-size-base: 14px;
+    --padding-base: 0.5rem;
+    --margin-base: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 13px;
+    --padding-base: 0.5rem;
+    --margin-base: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --font-size-base: 12px;
+    --padding-base: 0.25rem;
+    --margin-base: 0.25rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+  }
+}
