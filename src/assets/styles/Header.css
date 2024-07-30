@@ -7,12 +7,15 @@
   background-color: var(--light-color-1);
   padding: 0 2rem;
 }
-
+.header h1 a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 .nav > a {
-  margin: 0 10px;
+  margin: 0 20px;
   text-decoration: none;
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .nav > button {
@@ -22,4 +25,9 @@
   padding: 0.5rem 1rem;
   border-radius: 50px;
   width: 100px;
+}
+
+.nav > button:hover {
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
 }
