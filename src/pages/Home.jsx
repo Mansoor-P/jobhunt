@@ -1,18 +1,17 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../assets/styles/Home.css";
+import Hero from "../components/Hero";
+import CompanyCarousel from "../components/CompanyCarousel";
+import BlogHighlight from "../components/BlogHighlight";
 
 function Home() {
   return (
     <div className="home">
       <Header />
-      <main>
-        <h2>Welcome to the Job Portal</h2>
-        <p>Find your dream job with ease and convenience.</p>
-        <section className="left"></section>
-        <section className="right"></section>
-        <aside>side</aside>
-      </main>
+      <Hero/>
+      <CompanyCarousel/>
+      <BlogHighlight/>
       <Footer />
     </div>
   );
