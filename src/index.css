@@ -1,6 +1,5 @@
-/* Base styles */
 :root {
-  --font-family: 'Roboto', sans-serif;
+  --font-family: "Roboto", sans-serif;
   --font-size-base: 16px;
   --font-weight-normal: 400;
   --font-weight-bold: 700;
@@ -9,7 +8,13 @@
   --word-spacing-base: 1px;
   --padding-base: 1rem;
   --margin-base: 1rem;
-  --background-color: #ffffff;
+
+  --primary-color: #ffa06e;
+  --secondary-color: #193e6e;
+  --accent-color: #55bc7e;
+  --background-color: #d3e8e1;
+  --light-color-1: #ffeee5;
+  --light-color-2: #ffe8db;
   --text-color: #333333;
 }
 
@@ -31,11 +36,16 @@ body {
   padding: var(--padding-base);
   margin: var(--margin-base);
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: white;
 }
 
 /* Responsive typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   margin-bottom: 0.5rem;
@@ -133,4 +143,37 @@ p {
   h6 {
     font-size: 0.75rem;
   }
+}
+
+/* Colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.bg-light-1 {
+  background-color: var(--light-color-1);
+}
+
+.bg-light-2 {
+  background-color: var(--light-color-2);
 }
