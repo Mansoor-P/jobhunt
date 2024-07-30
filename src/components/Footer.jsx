@@ -40,10 +40,7 @@ function Footer() {
         <h4>Important Links</h4>
         <ul>
           <li>
-            <a href="/privacy">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="/terms">Terms of Service</a>
+            <a href="/privacypolicy">Privacy Policy</a>
           </li>
           <li>
             <a href="/faq">FAQ</a>
