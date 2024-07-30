@@ -33,8 +33,8 @@ body {
   line-height: var(--line-height-base);
   letter-spacing: var(--letter-spacing-base);
   word-spacing: var(--word-spacing-base);
-  padding: var(--padding-base);
-  margin: var(--margin-base);
+  /* padding: var(--padding-base); */
+  /* margin: var(--margin-base); */
   color: var(--text-color);
   background-color: white;
 }
@@ -58,6 +58,8 @@ p {
 /* Responsive spacing */
 .container {
   padding: var(--padding-base);
+  margin-left: 100px;
+  margin-right: 100px;
   margin: auto;
 }
 
