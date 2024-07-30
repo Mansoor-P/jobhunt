@@ -1,0 +1,151 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: white;
+  color: var(--text-color);
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-section {
+  flex: 1 1 20rem;
+  margin: 1rem;
+  min-width: 300px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.company-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.company-info .social_icons {
+  display: flex;
+  gap: 20px;
+  color: var(--text-color);
+}
+.company-info .social_icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.company-info .social_icons a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+.links ul,
+.important-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul li,
+.important-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.links ul li a,
+.important-links ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.links ul li a:hover,
+.important-links ul li a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-input {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--light-color-1); /* Added border for input */
+  border-radius: 4px;
+  width: 100%;
+}
+
+.newsletter-button {
+  padding: 0.5rem;
+  background-color: white;
+  color: var(--text-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.newsletter-button:hover{
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.footer-last {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  border-top: 1px solid var(--text-color);
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 1.5rem;
+  }
+
+  .footer-section {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .footer-section {
+    flex: 1 1 100%;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .newsletter {
+    width: 100%;
+  }
+
+  .newsletter-input,
+  .newsletter-button {
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 0.5rem;
+  }
+
+  .company-logo {
+    width: 100px;
+  }
+}
