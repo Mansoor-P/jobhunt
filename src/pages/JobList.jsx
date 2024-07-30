@@ -8,7 +8,7 @@ function JobList() {
     <div className="job-list">
       <Header />
       <main>
-        <h2>Job Listings</h2>
+        <h2>Find Your Dream Job – Apply Now</h2>
         <JobListings />
       </main>
       <Footer />

@@ -10,17 +10,14 @@ function Footer() {
           across various industries and locations.
         </p>
         <div className="social_icons">
-          <a href="">
+          <a href="https://www.github.com/Mansoor-P">
             <i className="bi bi-github"></i>
-            Github
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/mansoor0731/">
             <i className="bi bi-linkedin"></i>
-            LinkedIn
           </a>
-          <a href="">
-            <i className="bi bi-twitter"></i>
-            Twitter
+          <a href="https://mansoorsportfolio.netlify.app/">
+            <i className="bi bi-person-badge"></i>
           </a>
         </div>
       </div>
@@ -28,7 +25,7 @@ function Footer() {
         <h4>Links</h4>
         <ul>
           <li>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href="/about">About</a>
@@ -43,10 +40,7 @@ function Footer() {
         <h4>Important Links</h4>
         <ul>
           <li>
-            <a href="/privacy">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="/terms">Terms of Service</a>
+            <a href="/privacypolicy">Privacy Policy</a>
           </li>
           <li>
             <a href="/faq">FAQ</a>
