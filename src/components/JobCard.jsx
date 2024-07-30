@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../assets/styles/JobCard.css";
 import { jobs } from "../data/jobs";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 function JobCard() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -27,8 +28,8 @@ function JobCard() {
   return (
     <div>
       <ul className="job-card-list">
-        {currentJobs.map((job, index) => (
-          <li key={index} className="job-card-item">
+        {currentJobs.map((job) => (
+          <li key={job.id} className="job-card-item">
             <h3>{job.title}</h3>
             <div className="cat-com">
               <p className="category">{job.category}</p>
@@ -38,9 +39,9 @@ function JobCard() {
               <i className="bi bi-geo-alt-fill"></i>
               {job.location}
             </span>
-            <a href={job.applyLink} target="_blank" rel="noopener noreferrer">
+            <Link to={`/job-details/${job.id}`} className="more-info-link">
               More Info
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
