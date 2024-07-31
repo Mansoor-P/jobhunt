@@ -1,6 +1,5 @@
 import "../assets/styles/CompanyCarousel.css";
-
-import companies from "../assets/images/companies"; // Ensure correct path
+import companies from "../assets/images/companies";
 
 const CompanyCarousel = () => {
   return (

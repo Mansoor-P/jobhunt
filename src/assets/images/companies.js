@@ -1,10 +1,17 @@
+import googleLogo from './logos/google.png';
+import hubspotLogo from './logos/hubspot.png';
+import fedexLogo from './logos/fedex.png';
+import airbnbLogo from './logos/airbnb.png';
+import microsoftLogo from './logos/microsoft.png';
+import walmartLogo from './logos/walmart.png';
+
 const companies = [
-  { name: 'Google', logo: 'src/assets/images/logos/google.png' },
-  { name: 'Hibspot', logo: 'src/assets/images/logos/hubspot.png' },
-  { name: 'FedEx', logo: 'src/assets/images/logos/fedex.png' },
-  { name: 'Airbnb', logo: 'src/assets/images/logos/airbnb.png' },
-  { name: 'Microsoft', logo: 'src/assets/images/logos/microsoft.png' },
-  { name: 'Walmart', logo: 'src/assets/images/logos/walmart.png' },
+  { name: 'Google', logo: googleLogo },
+  { name: 'Hubspot', logo: hubspotLogo },
+  { name: 'FedEx', logo: fedexLogo },
+  { name: 'Airbnb', logo: airbnbLogo },
+  { name: 'Microsoft', logo: microsoftLogo },
+  { name: 'Walmart', logo: walmartLogo },
 ];
 
 export default companies;
