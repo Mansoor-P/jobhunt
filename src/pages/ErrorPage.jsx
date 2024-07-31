@@ -1,9 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../assets/styles/ErrorPage.css";
-import { Link } from "react-router-dom";
+import notFoundImage from "../assets/images/404.png";
 
 function ErrorPage() {
+  const navigate = useNavigate();
+
   return (
     <>
       <Header />
@@ -16,13 +19,11 @@ function ErrorPage() {
             moved or deleted.
           </p>
           <p>
-            Don’t worry, you can go back to our <Link href="/">homepage</Link>{" "}
-            or check out our latest updates.
+            Don’t worry, you can go back to our <a href="/">homepage</a> or
+            check out our latest updates.
           </p>
-          <img src="/assets/images/404.png" alt="404 Error" />
-          <button onClick={() => (window.location.href = "/")}>
-            Go to Homepage
-          </button>
+          <img src={notFoundImage} alt="404 Error" />
+          <button onClick={() => navigate("/")}>Go to Homepage</button>
         </main>
       </div>
 
