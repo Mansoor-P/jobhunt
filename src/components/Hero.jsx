@@ -1,4 +1,6 @@
 import "../assets/styles/Hero.css";
+import heroImage from "../assets/images/heroimg.png";
+
 const Hero = () => {
   return (
     <section className="container hero">
@@ -8,11 +10,11 @@ const Hero = () => {
           <p>Explore our latest job listings and career resources.</p>
         </div>
         <h1>
-          Find Your Job & <br /> Make sure goal
+          Find Your Job & <br /> Make your goal
         </h1>
         <p>
           Discover exciting opportunities and achieve your career goals with
-          ease
+          ease.
         </p>
         <div className="hero-search">
           <div className="input-wrapper">
@@ -23,11 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="right">
-        <img
-          className="heroimage"
-          src="src/assets/images/heroimg.png"
-          alt="Hero Image"
-        />
+        <img className="heroimage" src={heroImage} alt="Hero Image" />
       </div>
     </section>
   );

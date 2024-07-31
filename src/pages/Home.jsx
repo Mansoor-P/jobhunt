@@ -9,9 +9,9 @@ function Home() {
   return (
     <div className="home">
       <Header />
-      <Hero/>
-      <CompanyCarousel/>
-      <BlogHighlight/>
+      <Hero />
+      <CompanyCarousel />
+      <BlogHighlight />
       <Footer />
     </div>
   );
