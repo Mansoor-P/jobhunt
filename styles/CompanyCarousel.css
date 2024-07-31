@@ -1,0 +1,43 @@
+.carousel {
+  padding: 1rem;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.carousel h4 {
+  text-align: center;
+  color: var(--text-color);
+}
+.carousel-container {
+  height: 10vh;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 4rem;
+  padding: 0.5rem;
+}
+
+.company-logo {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-logo img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-container {
+  scrollbar-width: none;
+}
