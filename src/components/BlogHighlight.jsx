@@ -1,10 +1,11 @@
 import "../assets/styles/BlogHighlight.css";
+import pebbleDrawingImage from "../assets/images/pebbledrawing.png";
 
 const BlogHighlight = () => {
   return (
     <div className="container blog-highlight">
       <div className="image-section">
-        <img src="/src/assets/images/pebbledrawing.png" alt="Blog Highlight" />
+        <img src={pebbleDrawingImage} alt="Blog Highlight" />
       </div>
       <div className="info-section">
         <h2>Exciting New Feature Coming Soon!</h2>

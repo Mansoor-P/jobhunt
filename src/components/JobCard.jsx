@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../assets/styles/JobCard.css";
 import { jobs } from "../data/jobs";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom";
 
 function JobCard() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -33,9 +33,9 @@ function JobCard() {
             <h3>{job.title}</h3>
             <div className="cat-com">
               <p className="category">{job.category}</p>
-              <p>{job.company}</p>
+              <p className="company">{job.company}</p>
             </div>
-            <span>
+            <span className="location">
               <i className="bi bi-geo-alt-fill"></i>
               {job.location}
             </span>
@@ -50,7 +50,7 @@ function JobCard() {
           {"<"}
         </button>
         <span>
-          {currentPage} of {totalPages}
+          Page {currentPage} of {totalPages}
         </span>
         <button onClick={handleNextPage} disabled={currentPage === totalPages}>
           {">"}

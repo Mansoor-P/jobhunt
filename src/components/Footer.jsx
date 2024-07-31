@@ -1,4 +1,5 @@
 import "../assets/styles/Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -10,13 +11,25 @@ function Footer() {
           across various industries and locations.
         </p>
         <div className="social_icons">
-          <a href="https://www.github.com/Mansoor-P">
+          <a
+            href="https://www.github.com/Mansoor-P"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="bi bi-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/mansoor0731/">
+          <a
+            href="https://www.linkedin.com/in/mansoor0731/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="bi bi-linkedin"></i>
           </a>
-          <a href="https://mansoorsportfolio.netlify.app/">
+          <a
+            href="https://mansoorsportfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="bi bi-person-badge"></i>
           </a>
         </div>
@@ -25,14 +38,13 @@ function Footer() {
         <h4>Links</h4>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
-
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
@@ -40,16 +52,16 @@ function Footer() {
         <h4>Important Links</h4>
         <ul>
           <li>
-            <a href="/privacypolicy">Privacy Policy</a>
+            <Link to="/privacypolicy">Privacy Policy</Link>
           </li>
           <li>
-            <a href="/faq">FAQ</a>
+            <Link to="/faq">FAQ</Link>
           </li>
         </ul>
       </div>
       <div className="footer-section newsletter">
         <h4>News Letter</h4>
-        <p>Subscribe Here Our Blogs will directly comes to your mail</p>
+        <p>Subscribe Here Our Blogs will directly come to your mail</p>
         <form>
           <input
             type="email"
