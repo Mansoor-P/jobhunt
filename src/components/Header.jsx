@@ -1,15 +1,16 @@
 import "../assets/styles/Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className=" header">
+    <header className="header">
       <h1>
-        <a href="/">Job hunt</a>
+        <Link to="/">Job Hunt</Link>
       </h1>
       <nav className="nav">
-        <a href="/jobs">JobListings</a>
-        <a href="/about">AboutUs</a>
-        <button>Blogs</button>
+        <Link to="/jobs">Job Listings</Link>
+        <Link to="/about">About Us</Link>
+        <button onClick={() => window.location.href = '/blogs'}>Blogs</button>
       </nav>
     </header>
   );
