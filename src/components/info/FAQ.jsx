@@ -25,7 +25,6 @@ function FAQ() {
       answer:
         "Once submitted, you cannot edit your application directly. If you need to make changes, please contact the employer through the provided contact details or reach out to our support team for assistance.",
     },
-
     {
       question: "What should I do if I encounter a problem with the website?",
       answer:
@@ -46,15 +45,18 @@ function FAQ() {
         <ul className="faq-list">
           {faqs.map((faq, index) => (
             <li key={index} className="faq-item">
-              <div className="faq-question" onClick={() => toggleAnswer(index)}>
+              <div
+                className="faq-question"
+                onClick={() => toggleAnswer(index)}
+              >
                 <span>{faq.question}</span>
                 <span className="faq-icon">
                   {activeIndex === index ? "-" : "+"}
                 </span>
               </div>
-              {activeIndex === index && (
-                <div className="faq-answer">{faq.answer}</div>
-              )}
+              <div className={`faq-answer ${activeIndex === index ? 'show' : ''}`}>
+                {faq.answer}
+              </div>
             </li>
           ))}
         </ul>
