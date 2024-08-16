@@ -1,7 +1,7 @@
 .error-page {
   display: flex;
   flex-direction: column;
-  min-height: 50vh;
+  min-height: 100vh; /* Ensures the container takes full viewport height */
 }
 
 main {
@@ -10,50 +10,51 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
-  margin-top: 50px;
-
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease-out;
-  }
-  p {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease-out;
-  }
-  p > a {
-    text-decoration: none;
-    color: var(--primary-color);
-  }
 }
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+main p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+main p > a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 350px;
+}
+
 button {
-  margin-top: 20px;
-  padding: 20px;
   background-color: var(--primary-color);
   border: none;
   border-radius: 4px;
   font-size: 1.2rem;
 }
+
 button:hover {
   cursor: pointer;
   background-color: var(--light-color-1);
 }
 
-img {
-  max-width: 100%;
-  object-fit: cover;
-  height: 350px;
-}
-
 @media (max-width: 768px) {
-  h2 {
+  main h2 {
     font-size: 1.5rem;
   }
 
-  p {
+  main p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
   }
@@ -64,11 +65,11 @@ img {
 }
 
 @media (max-width: 480px) {
-  h2 {
+  main h2 {
     font-size: 1.25rem;
   }
 
-  p {
+  main p {
     font-size: 0.875rem;
     margin-bottom: 1rem;
   }
