@@ -1,53 +1,53 @@
 import { useParams } from "react-router-dom";
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import "../assets/styles/JobDetails.css";
 import { jobs } from "../data/jobs";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import {
-  FaBuilding,
-  FaMapMarkerAlt,
-  FaDollarSign,
-  FaTag,
-} from "react-icons/fa";
+import { FaBuilding, FaMapMarkerAlt, FaDollarSign, FaTag } from "react-icons/fa";
 
 function JobDetails() {
   const { id } = useParams();
   const job = jobs.find((job) => job.id === parseInt(id));
 
   if (!job) {
-    return <p>Job not found.</p>;
+    return (
+      <>
+        <Header />
+        <Container className="error text-center my-5">
+          <h1>Job Not Found</h1>
+          <p>We couldn't find the job listing you're looking for.</p>
+          <a href="/" className="btn btn-primary">Go back to homepage</a>
+        </Container>
+        <Footer />
+      </>
+    );
   }
 
   return (
     <>
       <Header />
-      <div className="job-details">
-        <h1>{job.title}</h1>
+      <Container className="job-details">
+        <h1 className="mb-4">{job.title}</h1>
 
-        <div className="main-info-items">
-          <div className="info-item">
-            <FaBuilding size={24} />
+        <Row className="mb-4">
+          <Col md={6} lg={3} className="d-flex align-items-center">
+            <FaBuilding size={24} className="me-2" />
             <p>{job.company}</p>
-          </div>
-
-          <div className="info-item">
-            <FaMapMarkerAlt size={24} />
+          </Col>
+          <Col md={6} lg={3} className="d-flex align-items-center">
+            <FaMapMarkerAlt size={24} className="me-2" />
             <p>{job.location}</p>
-          </div>
-
-          <div
-            className="info-item"
-            style={{ backgroundColor: "#f8f9fa", borderRadius: "8px" }}
-          >
-            <FaTag size={24} />
+          </Col>
+          <Col md={6} lg={3} className="d-flex align-items-center">
+            <FaTag size={24} className="me-2" />
             <p>{job.category}</p>
-          </div>
-
-          <div className="info-item">
-            <FaDollarSign size={24} />
+          </Col>
+          <Col md={6} lg={3} className="d-flex align-items-center">
+            <FaDollarSign size={24} className="me-2" />
             <p>{job.salary}</p>
-          </div>
-        </div>
+          </Col>
+        </Row>
 
         <h2>Description</h2>
         <p>{job.description.aboutJob}</p>
@@ -79,11 +79,11 @@ function JobDetails() {
           href={job.applyLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="apply-link"
+          className="btn btn-primary apply-link"
         >
           Apply Now
         </a>
-      </div>
+      </Container>
 
       <Footer />
     </>

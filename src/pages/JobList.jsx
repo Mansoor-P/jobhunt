@@ -1,6 +1,6 @@
-import JobListings from "../components/JobListings";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import JobListings from "../components/JobListings";
 import "../assets/styles/JobListings.css";
 
 function JobList() {
