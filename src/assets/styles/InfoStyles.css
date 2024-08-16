@@ -1,147 +1,149 @@
-.about-container {
-  padding: 20px;
-  max-width: 800px;
+/* InfoStyles.css */
+
+/* General Styles */
+.container {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
+/* About Page Styles */
+.about-container {
+  padding: 20px;
+}
 .about-container h1 {
-  text-align: center;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
 }
-
 .about-container h2 {
-  margin-top: 20px;
-  font-size: 1.5em;
+  font-size: 2rem;
+  color: #555;
 }
-
 .about-container p {
-  line-height: 1.6;
+  font-size: 1rem;
+  color: #666;
 }
-
 .about-container ul {
   list-style-type: disc;
-  margin-left: 20px;
+  padding-left: 20px;
 }
-
 .about-container a {
   color: #007bff;
   text-decoration: none;
 }
-
 .about-container a:hover {
   text-decoration: underline;
 }
 
-.privacy-policy-container {
-  padding: 40px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.privacy-policy-container h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.privacy-policy-container h2 {
-  margin-top: 20px;
-  font-size: 1.5em;
-}
-
-.privacy-policy-container p {
-  line-height: 1.6;
-}
-
-.privacy-policy-container a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.privacy-policy-container a:hover {
-  text-decoration: underline;
-}
-
-.faq-container {
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.faq-container h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.faq-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.faq-item {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.faq-question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 4px;
-}
-
-.faq-answer {
-  padding: 10px;
-  background-color: #f1f1f1;
-}
-
-.faq-icon {
-  font-size: 2rem;
-  margin-left: 10px;
-}
-
-.faq-question:hover {
-  background-color: #e2e2e2;
-}
-
+/* Contact Page Styles */
 .contact-container {
   padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
 }
-
 .contact-container h1 {
-  text-align: center;
-  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
 }
-
+.contact-container p {
+  font-size: 1rem;
+  color: #666;
+}
 .contact-info {
-  background-color: #f9f9f9;
-  padding: 20px;
+  background-color: #f8f9fa;
   border-radius: 8px;
 }
-
 .contact-info h2 {
-  margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.5rem;
+  color: #333;
 }
-
-.contact-info p {
-  line-height: 1.6;
-}
-
 .contact-info a {
   color: #007bff;
   text-decoration: none;
 }
-
 .contact-info a:hover {
   text-decoration: underline;
 }
+/* FAQ Page Styles */
+.faq-container {
+  padding: 20px;
+}
+.faq-container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.faq-question {
+  cursor: pointer;
+  padding: 15px;
 
-.contact-info a:not(:last-child)::after {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+.faq-question:hover {
+  background-color: #e2e2e2;
+  color: #333;
+}
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background-color: #333;
+}
+.faq-answer.show {
+  display: block;
+}
+.faq-icon {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 
-  margin: 0 5px;
+/* Privacy Policy Page Styles */
+.privacy-policy-container {
+  padding: 20px;
+}
+.privacy-policy-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+.privacy-policy-container h2 {
+  font-size: 2rem;
+  color: #555;
+}
+.privacy-policy-container p {
+  font-size: 1rem;
+  color: #666;
+}
+.privacy-policy-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+.privacy-policy-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  .about-container h1,
+  .contact-container h1,
+  .faq-container h1,
+  .privacy-policy-container h1 {
+    font-size: 2rem;
+  }
+  .about-container h2,
+  .contact-info h2,
+  .privacy-policy-container h2 {
+    font-size: 1.5rem;
+  }
 }

@@ -1,5 +1,6 @@
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import "./index.css";
+import { useTheme } from "./context/ThemeContext"; // Import useTheme
 import Home from "./pages/Home";
 import JobList from "./pages/JobList";
 import ErrorPage from "./pages/ErrorPage";
@@ -11,6 +12,12 @@ import JobDetails from "./pages/JobDetails";
 import "./assets/styles/App.css";
 
 function App() {
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    document.body.className = `${theme}-theme`;
+  }, [theme]);
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
