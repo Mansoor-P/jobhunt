@@ -1,43 +1,108 @@
-.carousel {
-  padding: 1rem;
-  background-color: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+/* Base styles for the carousel section */
+.carousel-section {
+  background-color: var(--light-background);
+  animation: fadeIn 1.5s ease-in-out;
+  overflow: hidden; 
+  position: relative;
 }
-.carousel h4 {
-  text-align: center;
-  color: var(--text-color);
+
+/* Heading style */
+.carousel-section h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  animation: fadeInUp 1s ease-in-out;
 }
+
+/* Carousel container */
 .carousel-container {
-  height: 10vh;
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 4rem;
-  padding: 0.5rem;
+  flex-wrap: nowrap;
+  animation: scrollX 20s linear infinite;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Each company logo */
+.company-logo {
+  flex: 0 0 auto;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 0.5rem; 
+}
+
+.company-logo:hover {
+  transform: scale(1.1);
+  box-shadow: var(--box-shadow-hover);
+}
+
+/* Company logo image */
+.company-logo img {
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Dark mode styles */
+.carousel-section.dark {
+  background-color: var(--dark-background-color);
+  color: var(--dark-text-color);
+}
+
+.carousel-section.dark h5 {
+  color: var(--light-text-color);
 }
 
 .company-logo {
-  flex: 0 0 auto;
-  scroll-snap-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: var(--dark-logo-background);
 }
 
-.company-logo img {
-  width: 100px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
+/* Keyframes for fade-in animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.carousel-container::-webkit-scrollbar {
-  display: none;
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.carousel-container {
-  scrollbar-width: none;
+/* Responsive Design */
+
+/* Medium screens (tablets) */
+@media (max-width: 992px) {
+  .carousel-container {
+    gap: 1.5rem;
+  }
+
+  .company-logo img {
+    max-width: 80px;
+  }
+}
+
+/* Small screens (mobile) */
+@media (max-width: 576px) {
+  .carousel-section {
+    padding: 1rem;
+  }
+
+  .carousel-container {
+    gap: 1rem;
+  }
+
+  .company-logo img {
+    max-width: 70px;
+  }
 }

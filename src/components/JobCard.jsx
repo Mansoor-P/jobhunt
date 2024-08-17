@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "../assets/styles/JobCard.css";
-import { jobs } from "../data/jobs";
 import { Link } from "react-router-dom";
+import "../assets/styles/JobCard.css";
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
-function JobCard() {
+function JobCard({ jobs }) {
   const [currentPage, setCurrentPage] = useState(1);
   const jobsPerPage = 5;
 
@@ -26,37 +26,45 @@ function JobCard() {
   };
 
   return (
-    <div>
-      <ul className="job-card-list">
-        {currentJobs.map((job) => (
-          <li key={job.id} className="job-card-item">
-            <h3>{job.title}</h3>
-            <div className="cat-com">
-              <p className="category">{job.category}</p>
-              <p className="company">{job.company}</p>
-            </div>
-            <span className="location">
-              <i className="bi bi-geo-alt-fill"></i>
-              {job.location}
-            </span>
-            <Link to={`/job-details/${job.id}`} className="more-info-link">
-              More Info
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <div className="pagination">
-        <button onClick={handlePrevPage} disabled={currentPage === 1}>
+    <Container>
+      <Row className="job-card-list">
+        {currentJobs.length > 0 ? (
+          currentJobs.map((job) => (
+            <Col key={job.id} md={6} lg={4} className="mb-4">
+              <div className="job-card-item p-3">
+                <h3>{job.title}</h3>
+                <div className="cat-com">
+                  <p className="category">{job.category}</p>
+                  <p className="company">{job.company}</p>
+                </div>
+                <span className="location">
+                  <i className="bi bi-geo-alt-fill"></i>
+                  {job.location}
+                </span>
+               <div>
+               <Link to={`/job-details/${job.id}`} className="more-info-link">
+                  More Info
+                </Link>
+               </div>
+              </div>
+            </Col>
+          ))
+        ) : (
+          <p>No jobs available</p>
+        )}
+      </Row>
+      <div className="pagination d-flex justify-content-center my-4">
+        <Button onClick={handlePrevPage} disabled={currentPage === 1}>
           {"<"}
-        </button>
-        <span>
+        </Button>
+        <span className="mx-3">
           Page {currentPage} of {totalPages}
         </span>
-        <button onClick={handleNextPage} disabled={currentPage === totalPages}>
+        <Button onClick={handleNextPage} disabled={currentPage === totalPages}>
           {">"}
-        </button>
+        </Button>
       </div>
-    </div>
+    </Container>
   );
 }
 

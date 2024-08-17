@@ -1,9 +1,10 @@
+import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import "../assets/styles/Home.css";
 import Hero from "../components/Hero";
 import CompanyCarousel from "../components/CompanyCarousel";
 import BlogHighlight from "../components/BlogHighlight";
+import "../assets/styles/Home.css";
 
 function Home() {
   return (

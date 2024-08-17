@@ -1,26 +1,25 @@
-// import "../assets/styles/info/infoStyles.css";
-
 import Footer from "../Footer";
 import Header from "../Header";
+import "../../assets/styles/InfoStyles.css"; // Ensure this file includes relevant styles for About page
 
 function About() {
   return (
     <>
       <Header />
-      <div className="about-container">
-        <h1>About Us</h1>
+      <div className="container about-container my-5">
+        <h1 className="text-center mb-4">About Us</h1>
 
-        <section>
-          <h2>Welcome to Job hunt</h2>
+        <section className="mb-4">
+          <h2>Welcome to Job Hunt</h2>
           <p>
-            <strong>Job hunt</strong> is dedicated to connecting talented
+            <strong>Job Hunt</strong> is dedicated to connecting talented
             individuals with the best job opportunities across various
             industries. Our platform offers a seamless and user-friendly
             experience for both job seekers and employers.
           </p>
         </section>
 
-        <section>
+        <section className="mb-4">
           <h2>Our Mission</h2>
           <p>
             Our mission is to empower job seekers by providing them with access
@@ -30,25 +29,16 @@ function About() {
           </p>
         </section>
 
-        <section>
+        <section className="mb-4">
           <h2>Our Values</h2>
           <ul>
-            <li>
-              <strong>Integrity:</strong> We are committed to providing honest
-              and transparent services.
-            </li>
-            <li>
-              <strong>Innovation:</strong> We continuously strive to improve our
-              platform and services.
-            </li>
-            <li>
-              <strong>Customer Focus:</strong> We prioritize the needs and
-              feedback of our users to enhance their experience.
-            </li>
+            <li><strong>Integrity:</strong> We are committed to providing honest and transparent services.</li>
+            <li><strong>Innovation:</strong> We continuously strive to improve our platform and services.</li>
+            <li><strong>Customer Focus:</strong> We prioritize the needs and feedback of our users to enhance their experience.</li>
           </ul>
         </section>
 
-        <section>
+        <section className="mb-4">
           <h2>Our Team</h2>
           <p>
             Our team consists of experienced professionals who are passionate
@@ -64,8 +54,7 @@ function About() {
             We value your feedback and are here to help. If you have any
             questions, suggestions, or need support, please feel free to reach
             out to us at{" "}
-            <a href="mailto:munaf6007@gmail.com">munaf6007@gmail.com</a>
-            .
+            <a href="mailto:munaf6007@gmail.com" className="link-primary">munaf6007@gmail.com</a>.
           </p>
         </section>
       </div>

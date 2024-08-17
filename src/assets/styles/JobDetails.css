@@ -2,8 +2,6 @@
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  box-sizing: border-box;
-  color: #333333;
 }
 
 .job-details h1 {
@@ -13,8 +11,6 @@
 
 .job-details p {
   margin-bottom: 10px;
-  display: flex;
-  align-items: center;
 }
 
 .job-details h2 {
@@ -25,15 +21,9 @@
   list-style-type: disc;
   padding-left: 20px;
 }
-.job-details .main-info-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
+
 .job-details .info-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border: 0.6px solid var(--primary-color);
   border-radius: 8px;
@@ -41,40 +31,38 @@
   margin-bottom: 10px;
 }
 
-
-
-.job-details .info-item span {
-  font-weight: bold;
+.job-details .info-item p {
+  margin: 0;
 }
-.job-details .skills ul{
-  display:flex ;
-  gap:20px;
+
+.job-details .skills ul {
+  display: flex;
+  gap: 20px;
   font-size: 1rem;
   list-style: none;
-
 }
-.job-details .skills ul li{
-  padding: 4px;
-  padding-right: 10px;
-  padding-left: 10px;
+
+.job-details .skills ul li {
+  padding: 4px 10px;
   border: 1px solid var(--primary-color);
   border-radius: 50px;
 }
+
 .apply-link {
   margin-top: 20px;
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--primary-color);
-  color: #fff;
+  color: black;
   text-decoration: none;
   border-radius: 4px;
   font-weight: bold;
+  border: 1px solid blue;
+  background: none;
 }
 
-.apply-link:hover {
-  background-color: var(--accent-color);
-}
 
+
+/* Responsive Styles */
 @media (min-width: 768px) {
   .job-details {
     padding: 30px;
@@ -97,60 +85,13 @@
   }
 }
 
-/* Laptops and larger screens */
-@media (min-width: 992px) {
-  .job-details {
-    padding: 40px;
-  }
-
-  .job-details h1 {
-    font-size: 3em;
-  }
-
-  .job-details p {
-    font-size: 1.2em;
-  }
-
-  .job-details h2 {
-    font-size: 1.75em;
-  }
-
-  .apply-link {
-    padding: 14px 28px;
-  }
-}
-
-/* Large screens and desktops */
-@media (min-width: 1200px) {
-  .job-details {
-    max-width: 1000px;
-  }
-
-  .job-details h1 {
-    font-size: 3.5em;
-  }
-
-  .job-details p {
-    font-size: 1.3em;
-  }
-
-  .job-details h2 {
-    font-size: 2em;
-  }
-
-  .apply-link {
-    padding: 16px 32px;
-  }
-}
-
-/* Mobile devices (portrait) */
 @media (max-width: 576px) {
   .job-details {
     padding: 15px;
   }
 
   .job-details h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .job-details p {
@@ -163,6 +104,5 @@
 
   .apply-link {
     padding: 8px 16px;
-    font-size: 0.9em;
   }
 }
